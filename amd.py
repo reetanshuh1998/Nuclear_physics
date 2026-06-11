@@ -74,57 +74,55 @@ class AMDState:
     def potential_energy(self, V0=-60.0, mu_pot=1.5):
         """
         Compute the expectation value of potential energy: <V>
-        using a central Gaussian potential V(r) = V0 * exp(-r^2 / mu_pot^2).
+        using a central Gaussian potential V(r) = V0 * exp(-r^2 / mu_pot^2),
+        vectorized for performance using tensor operations.
         """
         if np.abs(self.norm) < 1e-12 or self.A < 2:
             return 0.0
         
-        # Matrix of Gaussian potential elements: v_ij,kl = <i j | v | k l>
-        # Width prefactor: (nu * mu^2 / (1 + nu * mu^2))^(3/2)
         pot_factor = (self.nu * mu_pot**2 / (1.0 + self.nu * mu_pot**2))**1.5
         prefactor = V0 * pot_factor
+        gamma = 1.0 / (1.0 + self.nu * mu_pot**2)
         
-        V_expect = 0.0
-        # Compute <V> = 0.5 * Sum_{i,j,k,l} ( B_inv[k,i] * B_inv[l,j] * (V_ik,jl - V_il,jk) )
-        # where we sum over nucleons i, j, k, l
-        for i in range(self.A):
-            ni = self.nucleons[i]
-            for j in range(self.A):
-                nj = self.nucleons[j]
-                for k in range(self.A):
-                    nk = self.nucleons[k]
-                    for l in range(self.A):
-                        nl = self.nucleons[l]
-                        
-                        # Direct term: <i j | v | k l>
-                        val_direct = 0.0
-                        if ni.spin == nk.spin and ni.isospin == nk.isospin and nj.spin == nl.spin and nj.isospin == nl.isospin:
-                            diff_ik = np.sum((np.conj(ni.Z) - nk.Z)**2)
-                            diff_jl = np.sum((np.conj(nj.Z) - nl.Z)**2)
-                            R_ik = 0.5 * (np.conj(ni.Z) + nk.Z)
-                            R_jl = 0.5 * (np.conj(nj.Z) + nl.Z)
-                            diff_R = np.sum((R_ik - R_jl)**2)
-                            
-                            val_direct = prefactor * np.exp(
-                                -0.5 * diff_ik - 0.5 * diff_jl - (1.0 / (1.0 + self.nu * mu_pot**2)) * diff_R
-                            )
-                        
-                        # Exchange term: <i j | v | l k>
-                        val_exchange = 0.0
-                        if ni.spin == nl.spin and ni.isospin == nl.isospin and nj.spin == nk.spin and nj.isospin == nk.isospin:
-                            diff_il = np.sum((np.conj(ni.Z) - nl.Z)**2)
-                            diff_jk = np.sum((np.conj(nj.Z) - nk.Z)**2)
-                            R_il = 0.5 * (np.conj(ni.Z) + nl.Z)
-                            R_jk = 0.5 * (np.conj(nj.Z) + nk.Z)
-                            diff_R = np.sum((R_il - R_jk)**2)
-                            
-                            val_exchange = prefactor * np.exp(
-                                -0.5 * diff_il - 0.5 * diff_jk - (1.0 / (1.0 + self.nu * mu_pot**2)) * diff_R
-                            )
-                            
-                        element = val_direct - val_exchange
-                        V_expect += 0.5 * self.B_inv[k, i] * self.B_inv[l, j] * element
-                        
+        # Extract nucleon properties
+        Z = np.array([n.Z for n in self.nucleons], dtype=complex)
+        spin = np.array([n.spin for n in self.nucleons])
+        isospin = np.array([n.isospin for n in self.nucleons])
+        
+        # Pairwise spin/isospin match matrix
+        S_ik = (spin[:, None] == spin[None, :]) & (isospin[:, None] == isospin[None, :])
+        
+        # Coordinate matrices
+        Z_conj = np.conj(Z)
+        diff_matrix = np.sum((Z_conj[:, None, :] - Z[None, :, :])**2, axis=-1)
+        R_matrix = 0.5 * (Z_conj[:, None, :] + Z[None, :, :])
+        
+        # Direct term matching and calculation
+        # match_direct is shape (A, A, A, A) with indices (i, j, k, l)
+        match_direct = S_ik[:, None, :, None] & S_ik[None, :, None, :]
+        diff_ik = diff_matrix[:, None, :, None]
+        diff_jl = diff_matrix[None, :, None, :]
+        diff_R = np.sum((R_matrix[:, None, :, None, :] - R_matrix[None, :, None, :, :])**2, axis=-1)
+        
+        val_direct = np.zeros((self.A, self.A, self.A, self.A), dtype=complex)
+        exponent_dir = -0.5 * diff_ik - 0.5 * diff_jl - gamma * diff_R
+        val_direct[match_direct] = prefactor * np.exp(exponent_dir[match_direct])
+        
+        # Exchange term matching and calculation
+        match_exchange = S_ik[:, None, None, :] & S_ik[None, :, :, None]
+        diff_il = diff_matrix[:, None, None, :]
+        diff_jk = diff_matrix[None, :, :, None]
+        diff_R_exch = np.sum((R_matrix[:, None, None, :, :] - R_matrix[None, :, :, None, :])**2, axis=-1)
+        
+        val_exchange = np.zeros((self.A, self.A, self.A, self.A), dtype=complex)
+        exponent_exch = -0.5 * diff_il - 0.5 * diff_jk - gamma * diff_R_exch
+        val_exchange[match_exchange] = prefactor * np.exp(exponent_exch[match_exchange])
+        
+        element = val_direct - val_exchange
+        
+        # Expectation value sum: 0.5 * sum_{i,j,k,l} B_inv[k,i] * B_inv[l,j] * element[i,j,k,l]
+        V_expect = 0.5 * np.einsum('ki,lj,ijkl->', self.B_inv, self.B_inv, element)
+        
         return np.real(V_expect)
 
     def total_energy(self):

@@ -82,7 +82,7 @@ python3 run_calculations.py
 ### Outputs & Generated Figures:
 The script generates and saves the following plots to the project directory:
 1.  `woods_saxon_structure.png`: Woods-Saxon potential and the bound radial wavefunction $u(r)$ for the $2s_{1/2}$ state of $^{11}\text{Be}$.
-2.  `wavefunction_comparison.png`: Comparison between the phenomenological Woods-Saxon wavefunction and the microscopic AMD overlap wavefunction showing the physical interior node.
+2.  `wavefunction_comparison.png`: Comparison between the phenomenological Woods-Saxon wavefunction and the microscopic AMD overlap wavefunction showing the physical interior node (displaying both shape-normalized and raw unnormalized forms).
 3.  `triple_differential_cross_section.png`: Triple differential cross sections for four angle combinations reproducing Figure 8 of the paper.
 4.  `parallel_momentum_distribution.png`: Parallel momentum distribution of the core ($^{10}\text{Be}$) in Coulomb breakup on $^{181}\text{Ta}$ at $63\text{ MeV}/u$, verifying a FWHM of $\approx 29.9\text{ MeV}/c$.
 5.  `relative_energy_and_dipole.png`: Dipole response strength $dB(E1)/dE_{\text{rel}}$ and relative energy spectrum $d\sigma/dE_{\text{rel}}$ for breakup on $^{208}\text{Pb}$ at $69\text{ MeV}/u$.

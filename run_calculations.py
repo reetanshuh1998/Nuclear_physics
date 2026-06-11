@@ -102,45 +102,59 @@ def run_amd_simulation(u_ws, r_grid):
     
     nucleons = [Nucleon(Z, spins[i], isospins[i]) for i, Z in enumerate(initial_Z)]
     
-    # Core state (first 10 nucleons)
-    core_nucleons = nucleons[:10]
-    core_state = AMDState(core_nucleons, nu=nu)
+    # Variational Energy Minimization for core and projectile
+    print("Minimizing energy of 10Be core state using AMD...")
+    core_Z_init = initial_Z[:10]
+    core_spins = spins[:10]
+    core_isospins = isospins[:10]
+    core_state, E_core_opt = minimize_energy_state(core_Z_init, core_spins, core_isospins, nu=nu, max_iter=80)
+    print(f"Optimized 10Be Core Energy: {E_core_opt:.2f} MeV")
     
-    # Projectile state (all 11 nucleons)
-    projectile_state = AMDState(nucleons, nu=nu)
+    print("Minimizing energy of 11Be projectile state using AMD...")
+    projectile_state, E_proj_opt = minimize_energy_state(initial_Z, spins, isospins, nu=nu, max_iter=80)
+    print(f"Optimized 11Be Projectile Energy: {E_proj_opt:.2f} MeV")
     
     print(f"AMD Core (10Be) Norm: {core_state.norm:.2e}")
     print(f"AMD Projectile (11Be) Norm: {projectile_state.norm:.2e}")
     print(f"AMD core kinetic energy: {core_state.kinetic_energy():.2f} MeV")
+    print(f"AMD core potential energy: {core_state.potential_energy():.2f} MeV")
     print(f"AMD projectile kinetic energy: {projectile_state.kinetic_energy():.2f} MeV")
+    print(f"AMD projectile potential energy: {projectile_state.potential_energy():.2f} MeV")
     
     # Extract the overlap wavefunction u_amd(r)
     print("Extracting valence neutron overlap wavefunction from AMD state...")
-    u_amd = projectile_state.extract_overlap_amplitude(core_state, r_grid)
+    u_amd_raw = projectile_state.extract_overlap_amplitude(core_state, r_grid)
     
-    # Normalize u_amd
-    norm_factor = np.trapz(u_amd**2, r_grid)
-    if norm_factor > 1e-10:
-        u_amd /= np.sqrt(norm_factor)
+    # Calculate unnormalized Spectroscopic Factor
+    sf_factor = np.trapz(u_amd_raw**2, r_grid)
+    print(f"Calculated AMD s-wave Spectroscopic Factor (SF): {sf_factor:.4f} (Paper reference: ~0.82)")
+    
+    # Normalize u_amd for shape comparison
+    u_amd = np.copy(u_amd_raw)
+    if sf_factor > 1e-10:
+        u_amd /= np.sqrt(sf_factor)
         
     # Align sign for comparison
     if np.dot(u_amd, u_ws) < 0:
         u_amd = -u_amd
+        u_amd_raw = -u_amd_raw
         
     # Plot comparison (reproducing Figure 7 of paper)
     plt.figure(figsize=(7, 5))
     plt.plot(r_grid, u_ws, 'b-', label='Woods-Saxon (WS)', linewidth=2.0)
-    plt.plot(r_grid, u_amd, 'r--', label='Microscopic AMD', linewidth=2.0)
+    plt.plot(r_grid, u_amd, 'r--', label='Microscopic AMD (Normalized)', linewidth=2.0)
+    plt.plot(r_grid, u_amd_raw, 'g:', label=f'Microscopic AMD (Raw, SF = {sf_factor:.3f})', linewidth=2.0)
     plt.xlabel('r (fm)', fontsize=12)
     plt.ylabel('Radial Wavefunction u(r) (fm^-1/2)', fontsize=12)
     plt.title('Wavefunction Comparison: WS vs Microscopic AMD', fontsize=14, fontweight='bold')
     plt.grid(True, linestyle='--', alpha=0.5)
-    plt.legend(fontsize=11)
+    plt.legend(fontsize=10)
     
-    # Add inset matching Fig. 7 inset (nuclear interior r < 5)
+    # Add inset matching Fig. 7 inset (nuclear interior r < 6)
     ax_ins = plt.axes([0.48, 0.48, 0.38, 0.38])
     ax_ins.plot(r_grid[r_grid < 6.0], u_ws[r_grid < 6.0], 'b-', linewidth=1.5)
     ax_ins.plot(r_grid[r_grid < 6.0], u_amd[r_grid < 6.0], 'r--', linewidth=1.5)
+    ax_ins.plot(r_grid[r_grid < 6.0], u_amd_raw[r_grid < 6.0], 'g:', linewidth=1.5)
     ax_ins.set_title('Nuclear Interior', fontsize=10)
     ax_ins.grid(True, linestyle=':', alpha=0.5)
     
