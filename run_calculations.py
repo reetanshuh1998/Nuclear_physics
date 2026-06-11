@@ -139,22 +139,56 @@ def run_amd_simulation(u_ws, r_grid):
         u_amd = -u_amd
         u_amd_raw = -u_amd_raw
         
+    # Smooth tail correction matching paper's procedure (Eq. 21, AMD+RGM tail correction)
+    mu_bc = (M_N * M_C) / (M_N + M_C)
+    kappa = np.sqrt(2.0 * mu_bc * 0.50) / HBAR_C  # Sn = 0.50 MeV
+    
+    dr = r_grid[1] - r_grid[0]
+    deriv = np.gradient(u_amd, dr)
+    log_deriv = deriv / (u_amd + 1e-30)
+    
+    # Search for matching point after the minimum, up to r = 7.0 fm (to avoid double precision noise in the outer region)
+    min_idx = np.argmin(u_amd)
+    max_search_idx = np.abs(r_grid - 7.0).argmin()
+    search_range = range(min_idx, max_search_idx)
+    best_idx = min_idx
+    best_diff = 1e9
+    for idx in search_range:
+        diff = np.abs(log_deriv[idx] + kappa)
+        if diff < best_diff:
+            best_diff = diff
+            best_idx = idx
+            
+    a_match = r_grid[best_idx]
+    print(f"Smooth AMD tail-stitching at a = {a_match:.4f} fm (log_deriv = {log_deriv[best_idx]:.4f}, target = {-kappa:.4f})")
+    
+    # Apply tail correction
+    u_amd_tc = np.copy(u_amd)
+    u_amd_tc[best_idx:] = u_amd[best_idx] * np.exp(-kappa * (r_grid[best_idx:] - a_match))
+    
+    # Re-normalize tail-corrected shape
+    tc_norm = np.trapz(u_amd_tc**2, r_grid)
+    u_amd_tc /= np.sqrt(tc_norm)
+    
+    # Scaled raw wavefunction using tail-corrected shape
+    u_amd_raw_tc = u_amd_tc * np.sqrt(sf_factor)
+        
     # Plot comparison (reproducing Figure 7 of paper)
     plt.figure(figsize=(7, 5))
     plt.plot(r_grid, u_ws, 'b-', label='Woods-Saxon (WS)', linewidth=2.0)
-    plt.plot(r_grid, u_amd, 'r--', label='Microscopic AMD (Normalized)', linewidth=2.0)
-    plt.plot(r_grid, u_amd_raw, 'g:', label=f'Microscopic AMD (Raw, SF = {sf_factor:.3f})', linewidth=2.0)
+    plt.plot(r_grid, u_amd_tc, 'r--', label='Microscopic AMD (TC, Normalized)', linewidth=2.0)
+    plt.plot(r_grid, u_amd_raw_tc, 'g:', label=f'Microscopic AMD (TC, Raw, SF = {sf_factor:.3f})', linewidth=2.0)
     plt.xlabel('r (fm)', fontsize=12)
     plt.ylabel('Radial Wavefunction u(r) (fm^-1/2)', fontsize=12)
     plt.title('Wavefunction Comparison: WS vs Microscopic AMD', fontsize=14, fontweight='bold')
     plt.grid(True, linestyle='--', alpha=0.5)
-    plt.legend(fontsize=10)
+    plt.legend(loc='lower right', fontsize=10) # Move legend to lower right to avoid overlap
     
     # Add inset matching Fig. 7 inset (nuclear interior r < 6)
     ax_ins = plt.axes([0.48, 0.48, 0.38, 0.38])
     ax_ins.plot(r_grid[r_grid < 6.0], u_ws[r_grid < 6.0], 'b-', linewidth=1.5)
-    ax_ins.plot(r_grid[r_grid < 6.0], u_amd[r_grid < 6.0], 'r--', linewidth=1.5)
-    ax_ins.plot(r_grid[r_grid < 6.0], u_amd_raw[r_grid < 6.0], 'g:', linewidth=1.5)
+    ax_ins.plot(r_grid[r_grid < 6.0], u_amd_tc[r_grid < 6.0], 'r--', linewidth=1.5)
+    ax_ins.plot(r_grid[r_grid < 6.0], u_amd_raw_tc[r_grid < 6.0], 'g:', linewidth=1.5)
     ax_ins.set_title('Nuclear Interior', fontsize=10)
     ax_ins.grid(True, linestyle=':', alpha=0.5)
     
@@ -163,7 +197,7 @@ def run_amd_simulation(u_ws, r_grid):
     plt.close()
     print(f"Wavefunction comparison plot saved to {plot_path}")
     
-    return u_amd
+    return u_amd_tc
 
 def run_frdwba_simulation(u_ws, opt_pot, r_grid):
     print("\n=== Step 3: Finite Range Distorted Wave Born Approximation (FRDWBA) ===")
