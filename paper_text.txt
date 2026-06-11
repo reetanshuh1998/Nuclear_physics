@@ -1,0 +1,1887 @@
+Eur. Phys. J. A (2021) 57:203
+https://doi.org/10.1140/epja/s10050-021-00526-4
+
+Regular Article - Theoretical Physics
+
+A description of the structure and electromagnetic breakup of
+11 Be with microscopic inputs
+M. Dan1,a , R. Chatterjee1,b , M. Kimura2,3,4,c
+1 Department of Physics, Indian Institute of Technology Roorkee, Roorkee 247 667, India
+2 Department of Physics, Hokkaido University, 060-0810 Sapporo, Japan
+3 Nuclear Reaction Data Centre, Faculty of Science, Hokkaido University, 060-0810 Sapporo, Japan
+4 Research Center for Nuclear Physics (RCNP), Osaka University, Ibaraki 567-0047, Japan
+
+Received: 26 December 2020 / Accepted: 13 June 2021 / Published online: 24 June 2021
+© The Author(s), under exclusive licence to Società Italiana di Fisica and Springer-Verlag GmbH Germany, part of Springer Nature 2021
+Communicated by Cedric Simenel
+
+Abstract We study both the static properties of 11 Be and
+its reaction dynamics during electromagnetic breakup under
+a unified framework. A many-body approach—the antisymmetrized molecular dynamics (AMD) is used to describe the
+structure of the neutron-halo nucleus, 11 Be. The same AMD
+wave function is then adapted as an input to the fully quantum
+theory of Coulomb breakup under the aegis of the finite range
+distorted wave Born approximation theory. The calculated
+observables are also compared with those obtained with a
+phenomenological Woods-Saxon potential model wave function. The experimental core-valence neutron relative energy
+spectrum and dipole response along with other observables
+are well described by our calculations.
+
+1 Introduction
+Since the discovery of halo nuclei [1], several observations
+in their study have shown unconventional results, which
+were contrary to traditional nuclear structure estimations. For
+example, unlike the case of stable nuclei where the matter
+radius generally follow the charge radius, the matter radius
+of 11 Be was found to be larger than its charge radius. The full
+width at half-maximum (FWHM) of the parallel momentum
+distribution (PMD) of stable nuclei (≈ 140 MeV/c ) is much
+higher compared to that from a halo nucleus (≈ 40 MeV/c).
+For 10,11,12 Be breaking up on a heavy target (Au), the FWHM
+of the PMD of the charged fragment are 191.13 MeV/c, 43.23
+MeV/c and 88.93 MeV/c, respectively [2].
+
+a e-mail: mdan@ph.iitr.ac.in
+b e-mail: rchatterjee@ph.iitr.ac.in (corresponding author)
+c e-mail: masaaki@nucl.sci.hokudai.ac.jp
+
+It is generally considered that a large neutron to proton
+ratio results in a sharp decrease of the one-neutron separation energy, and consequently an extension in the neutron
+wave function far outside the nuclear mean field is observed
+[3]. This extension directly affects the static properties of
+the system. The root mean square matter radius of 10 Be and
+11 Be are 2.30 ± 0.02 fm and 2.73 ± 0.05 fm, respectively
+[4]. In a neutron halo nucleus, one can get information on the
+interaction between the clusters of a dicluster nucleus from
+the change of nuclear charge distribution. These changes may
+occur due to the relative motion between the core and the center of mass, and due to the core polarization resulting from
+the core-valence neutron interaction [5]. There are several
+studies [6–9] that report on charge and matter radius of 11 Be.
+However more analysis are required for a consistent picture.
+The comparison between charge and matter radii is significant for the nuclei with different distribution of neutron and
+proton halo.
+Tanihata et al. [1] have shown that there is a notable
+increase in interaction cross section for drip line nuclei compared to the neighbouring isotopes of light elements. There
+is an increase in one neutron removal cross section (σn ) for
+11 Be as compared to 10 Be, while breaking up on a Pb target. The average one neutron removal cross section for 10 Be
+(beam energy ranging from 37 to 70 MeV/u) is 0.126 ± 0.011
+b, while that for 11 Be (beam energy ranging from 17 to 66
+MeV/u), is 2.16 ± 0.17 b [10]. It is evident that the average
+one neutron removal cross section of 11 Be is an order of magnitude higher than that of 10 Be. The unusually large reaction
+cross section of a halo nuclei, compared to its isobars, is a
+consequence of the matter radius significantly deviating from
+the usual A1/3 dependence expected for stable nuclei [11].
+The analysis of an external nuclear or electromagnetic
+field response by a nucleus is one of the key elements to
+
+123
+
+203 Page 2 of 12
+
+understand the characteristics of a many-body nuclear system [12]. At present, there are several discussions about the
+way giant dipole resonance strength evolves from stable to
+weakly bound exotic nuclei in extreme neutron to proton
+ratios. In general, the presence of collective soft-dipole resonance is expected to occur in heavier neutron-rich structures
+at excitation energies lower than the giant dipole resonance
+[13,14]. Such a mode may arise when loosely bound valence
+neutrons vibrate against the residual core. In the literature,
+it is often referred to as pygmy resonance. In electromagnetic dissociation experiments (e.g. [15,16]), a prominent
+low-lying dipole strength was observed in light halo nucleus.
+Their presence is justified by two arguments: first is due to
+the coherent vibration of two halo neutrons against the charge
+core (e.g. 6 He [17] and 11 Li [18]) and second is due to the
+non-resonant breakup of one neutron halo nucleus (e.g. 11 Be
+[15] and 19 C [16]) into the continuum [12,19,20]. It is also
+reported that astrophysical aspects such as abundance pattern
+in the r-process nucleosynthesis could also be related to the
+presence of low-lying dipole strength present in neutron-rich
+nuclei [21,22].
+In this article, we combine a microscopic nuclear structure model, the antisymmetrized molecular dynamics (AMD)
+[23–25], with a reaction model to discuss both the static
+and dynamical properties of a neutron-halo nucleus 11 Be.
+A similar attempt has already been made in Refs. [26,27] in
+which the structure of 11 Be and the p+11 Be breakup reaction were investigated by using the density folding potential
+derived from the diagonal and transition densities of 10 Be
+calculated by AMD. In contrast, in this work, we extend the
+AMD framework to describe the neutron-halo of 11 Be and
+directly use the AMD wave function itself as an input of the
+reaction theory to describe the Coulomb breakup of 11 Be
+using the finite range distorted wave Born approximation
+(FRDWBA). We calculate several reaction observables in the
+Coulomb breakup of 11 Be on a heavy target (208 Pb) such as
+triple differential cross section, neutron energy distribution,
+parallel momentum distribution, relative energy spectrum,
+and dipole response of 11 Be. The results are also compared
+with the available experimental data, and also with those
+obtained from a phenomenological wave function derived
+using a Woods-Saxon (WS) potential whose depth is adjusted
+to fit the one-neutron separation energy of 11 Be.
+In the following section, a brief description of the FRDWBA theory and details of the AMD framework are presented. The results and analysis from our calculations have
+been discussed in Sect. 3, wherein we present the static properties of 11 Be followed by calculations of various reaction
+observables in during its electromagnetic breakup on a heavy
+target. The conclusions of our work appear in Sect. 4.
+
+123
+
+Eur. Phys. J. A (2021) 57:203
+
+Fig. 1 The three body Jacobi coordinate system. The corresponding
+position vectors are denoted by r’s
+
+2 Formulation
+2.1 Framework of FRDWBA
+If we assume a projectile ‘a’ (11 Be), consisting of substructures ‘b’ (10 Be) and ‘c’ (neutron) to breakup in the pure
+Coulomb field of a heavy target ‘t’ (208 Pb). Then, the triple
+differential cross section for the process a + t −→ b + c + t
+can be written as,
+
+2π
+d 3σ
+=
+ρ(E b , Ωb , Ωc )
+|βlm |2 ,
+d E b dΩb dΩc
+h̄vat
+
+(1)
+
+l,m
+
+where, vat is the relative velocity between the a-t system
+in the entrance channel, ρ(E b , Ωb , Ωc ) is the three body
+final state phase space factor [28]. The reduced transition
+amplitude in the post form FRDWBA, βlm , for the breakup
+process is given by Chatterjee and Shyam [29],
+
+
+
+(−)
+βlm (qb , qc ; qa ) = ζb (qb , r)ζc(−) (qc , rc ) Vbc (r1 )
+
+
+
+× φalm (r1 )ζa(+) (qa , ri ) .
+(2)
+ζi ’s (i = a, b, c) are the pure Coulomb distorted waves of
+the appropriate particles with respect to the target and qi s
+are the associated Jacobi wave vectors. The position vectors
+are shown in Fig. 1 with r = ri − αr1 and rc = γ r1 + δri ,
+where α, γ and δ are the mass factors: α = mc /(mc + mb ); γ
+= mt /(mb + mt ); γ = (1 − αδ ) and mi s (i = b, c, t) are the
+masses of the appropriate particles.
+φalm (r1 ) is the ground state wave function of the projectile (a), which is an eigenfunction of the two-body bound
+state potential Vbc (r1 ), with l and m as the orbital angular
+momentum and its projection, respectively. Other reaction
+observables such as relative energy spectrum, neutron energy
+distribution, and parallel momentum distribution can be calculated by suitably integrating Eq. (1). The dipole strength
+distribution d B(E1)/d E can be obtained [30–32] from the
+
+Eur. Phys. J. A (2021) 57:203
+
+Page 3 of 12 203
+
+relative energy spectra dσ /d Er el using
+d B(E1)
+16π 3
+dσ
+n E1
+,
+=
+d Er el
+9h̄c
+dE
+
+(3)
+
+where, n E1 is the virtual photon number for electric dipole
+transition. For more details of the theory one is referred to
+[29]. The main input to this theory is the wave function
+φalm (r1 ) = u l (r1 ) Y lm (r̂1 ), or more specifically the bound state
+radial wave function u l (r1 ). In this work, we test two different approaches to calculate this primary structure input to the
+theory. An ordinary option is to calculate u l (r1 ) from the corevalence neutron interaction with the WS form whose depth is
+adjusted to reproduce the one-neutron separation energy with
+fixed radius and diffuseness parameters. An alternative and
+more sophisticated approach would be to use u l (r 1 ) derived
+from a microscopic many-body wave function of the AMD,
+which is discussed in details in the next section.
+2.2 Model for the structure calculation
+The framework of AMD and the method to calculate
+valence neutron wave function (overlap amplitude) are
+briefly explained. For more details, readers are directed to
+Refs. [23–25].
+2.2.1 Framework of AMD
+The Hamiltonian used in this study is given as,
+H=
+
+A
+
+
+t (i) +
+
+i=1
+
+A
+
+
+vn (i j) +
+
+i< j
+
+Z
+
+
+vC (i j) − tcm ,
+
+(4)
+
+i< j
+
+where, the Gogny D1S interaction [33] is used as an effective
+nucleon-nucleon interaction vn . Following the prescription
+made in Ref. [34], we have weakened the strength of the spinorbit interaction by 5% from the original one to reproduce the
+observed splitting of the 1/2± states of 11 Be. The Coulomb
+interaction, vC is approximated by a sum of seven Gaussians,
+and the center-of-mass kinetic energy, tcm is exactly removed.
+The intrinsic wave function, Φint is represented by a Slater
+determinant of single-particle wave packets. It is projected to
+the eigenstate of parity before the variation (parity projection
+before variation).
+Φint = A{ϕ1 ϕ2 . . . ϕ A },
+
+(5)
+
+1 + π P̂x
+π
+Φint , (π = ±),
+Φint
+= P π Φint =
+(6)
+2
+where, P π and Px denote the parity projector and parity
+operator, respectively. The single-particle wave packet, ϕi
+has the deformed Gaussian form [35],
+
+
+
+ϕi (r) =
+(2νσ /π )1/4 exp −νσ (rσ − Z iσ )2 χi ηi ,
+σ =x,y,z
+
+(i = 1, 2, ...A).
+
+(7)
+
+χi is the nucleon spinor and ηi is the isospin fixed to either
+of proton or neutron. The parameters of the wave function
+(Zi , ν and χi ) are determined by the energy variation which
+minimizes the expectation value of the Hamiltonian,
+H =
+
+Φ π |H |Φ π 
++ vβ (β − β)2 .
+Φ π |Φ π 
+
+(8)
+
+Note that the potential vβ (β − β)2 imposes the constraint
+on the quadrupole deformation parameter β defined in Ref.
+[36]. The magnitude of vβ is chosen large enough so that β
+equals to β. By the energy variation, we obtain the optimized wave function for each given value of β, which are
+π (β). No constraint was imposed on the other
+denoted by Φint
+quadrupole deformation parameter γ , and hence, it always
+has the optimal value.
+2.2.2 The generator coordinate method and AMD plus
+resonating group method
+To describe the ground and excited states, we perform the
+angular momentum projection and the generator coordinate
+π (β) are projected
+method. The optimized wave functions Φint
+to the eigenstates of the total angular momentum,
+Jπ
+J
+π
+ΦM
+K (β) = PM K Φint (β)
+2J + 1
+J∗
+π
+=
+dΩ D M
+K (Ω)R(Ω)Φint (β),
+8π 2
+
+(9)
+
+J (Ω) and R(Ω) denote the angular
+where, PMJ K , D M
+K
+momentum projector, the Wigner D function and the rotation
+operator, respectively. The integrals over three Euler angles
+Ω are evaluated numerically. Then, we superpose the wave
+functions with different quadrupole deformation β and projection of angular momentum K (GCM),
+Jπ
+=
+Ψ Mα
+
+J
+N
+
+
+
+Jπ
+e K iα Φ M
+K (βi ),
+
+(10)
+
+K =−J i=1
+
+where N is a number of the basis wave functions to be
+superposed. The coefficients e K iα and eigenenergy E αJ π are
+obtained by solving the Hill-Wheeler equation [37],
+
+
+HKJ πi K  i  e K  i  α = E αJ π
+N KJ πi K  i  e K  i  α ,
+(11)
+K i 
+
+K i 
+Jπ
+Jπ
+Jπ
+HK i K  i  = Φ M K (βi )|H |Φ M
+K  (βi  ),
+Jπ
+Jπ
+Jπ
+N K i K  i  = Φ M K (βi )|Φ M K  (βi  ).
+
+(12)
+(13)
+
+J π (β ) genAs explained later, the basis wave functions Φ M
+K i
+erated by the energy variation are not sufficient to describe the
+neutron halo of 11 Be. To incorporate the proper asymptotics
+of the halo wave function, we have introduced a set of wave
+functions as additional basis. As schematically illustrated in
+Fig. 2, we have generated the 10 Be + n wave functions by
+placing the 10 Be and n on the grid points within the 12 fm
+
+123
+
+203 Page 4 of 12
+
+Eur. Phys. J. A (2021) 57:203
+
+between the wave functions of 10 Be and 11 Be.
+
+√  π
+1/2+
+ψ(r) = 11 Ψ MJ (10 Be)|Ψ M  (11 Be) .
+
+12 fm
+
+(16)
+
+For simplicity, we assume that the wave functions of
+
+n
+
+10,11 Be are described by the parity- and angular-momentum-
+
+12 fm
+
+projected wave functions given by Eq. (9). Then, Eq. (16)
+reads,
+ 1/2M 
+C J M, j M  −M u jl (r )/r [Yl (r̂ ) ⊗ χ ] j M  −M , (17)
+ψ(r) =
+jl
+
+where, the overlap amplitude u jl (r ) is defined as,
+
+10Be
+
+u jl (r ) =
+
+1fm
+
+
+
+1/2K 
+
+C J K  −k, jk
+
+11
+
+p=1
+
+k
+
+Fig. 2 A schematic illustration of the basis wave function for the
+10 Be + n system used in the AMD+RGM method
+
+( p)
+
+(−) p r ϕ jlk (r )
+
+2J + 1
+8π 2
+
+×
+
+dΩ D KJ ∗K  −k (Ω) det B ( p) (Ω).
+
+(18)
+
+( p)
+
+(14)
+
+Here, ϕ jlk is the multi-pole decomposition of the singleparticle wave packet (Eq. 7),
+ ( p)
+ϕ p (r) =
+ϕ jlk (r )[Yl (r̂ ) ⊗ χ ] jk .
+(19)
+
+Here, the wave function of 10 Be is the intrinsic wave function
+
+det B ( p) (Ω) is the determinant of the sub-matrix B ( p) formed
+
+× 12 fm size with 1 fm intervals. These wave functions may
+be represented as,
+Φ(ξ i , χn ) = A Φ10 Be (−
+
+1
+10
+ξ i )ϕn ( ξ i , χn ) .
+11
+11
+
+jlk
+
+(Eq. 6) obtained by the energy variation without constraint
+on the deformation parameter β, and the valence neutron
+is described by a Gaussian wave packet (Eq. 7) placed at
+10/11ξ i . Because Φ10 Be has approximate axial and reflection
+symmetry, the relative coordinate ξ i between 10 Be and the
+valence neutron can be restricted within the first quadrant of
+the x y-plane where the y-axis is the symmetry axis of Φ11 Be .
+Consequently, we have generated 13 × 13 × 2 = 338 basis
+wave functions (number of grid points × neutron spin), which
+are superposed after the angular momentum projection,
+Jπ
+=
+Ψ Mα
+
+J
+
+
+N
+
+
+K =−J
+
+i=1
+
+169
+
+
+
+
++
+
+Jπ
+e K iα Φ M
+K (βi )
+
+f K iχn α PMJ K P π Φ(ξ i , χn ) .
+
+∞
+
+S jl =
+
+dr |u jl (r )|2 .
+
+(20)
+
+0
+
+The derivation of the above formulae is explained in Ref.
+[41]. It is straightforward to extend them to the GCM and
+AMD+RGM wave functions given by Eqs. (10) and (15).
+
+3 Results and discussions
+(15)
+
+i=1 χn =↑,↓
+
+The coefficients e K iα , f K iχn α and eigenenergy E αJ π are
+determined by solving the Hill-Wheeler equation again. We
+note that this method named AMD plus resonating group
+method (AMD+RGM) has already been used to describe neutron halo of 31 Ne [38–40].
+2.2.3 Calculation of the valence neutron wave function
+We have extracted the valence neutron wave function (overlap amplitude) from the microscopic wave functions of 10 Be
+and 11 Be. For this purpose, firstly, we calculate the overlap
+
+123
+
+by removing pth column from B(Ω). And B(Ω) is the (10 ×
+11)-dimension overlap matrix between 10 Be and 11 Be, that is
+defined as B(Ω)i j = φi |R(Ω)|ϕ j  where φi and ϕ j are the
+single-particle wave packets of 10 Be and 11 Be, respectively.
+Once the overlap amplitude is calculated, its integral yields
+the spectroscopic factor,
+
+3.1 Static properties of 11 Be
+Figure 3 shows the density profile of the 10 Be and 11 Be intrinsic wave functions (Eq. 6) which are obtained by the energy
+variation and are the dominant components of the ground
+state.
+As clearly seen, both nuclei have dumbbell-shaped proton
+density distributions which indicate the pronounced α + α
+clustering. The valence neutrons (two valence neutrons of
+10 Be and three of 11 Be) occupy the so-called “molecular
+orbits” which are the single-particle orbits formed around
+α + α cluster core [42–45]. In both nuclei, two valence neutrons occupy the π -orbit, and the last valence neutron of 11 Be
+
+Eur. Phys. J. A (2021) 57:203
+
+Page 5 of 12 203
+11Be (proton)
+
+0
+
+0
+
+[fm-3]
+0.10
+
+-2
+
+-2
+
+0.08
+
+0 2
+x [fm]
+10Be (neutron)
+
+-2
+
+4
+
+2
+
+-4
+
+0 2
+x [fm]
+11Be (neutron)
+
+0.04
+0.00
+
+-2
+0 2
+x [fm]
+
+0.06
+
+0
+
+-2
+-2
+
+4
+
+0.02
+
+0
+
+-4
+
+-2
+
+2
+
+y [fm]
+
+y [fm]
+
+-4
+
+4
+
+-4
+
+-2
+
+0 2
+x [fm]
+
+4
+
+single-particle energy
+
+Fig. 3 The proton and neutron density distributions calculated from
+the intrinsic wave functions which are the dominant component of the
+ground state. Upper (lower) panels show the proton (neutron) densities
+
+d5/2
+p1/2
+
+1/2
+
+2
+
+s1/2
+0
+
+2×s1/2
++
+1/2
+
+2
+
+2
+10Be
+
+5/2+
+5/2+
+
+1
+1/21/2+
+0+
+
+0+
+
+-1 AMD expt.
+
+3/2-
+
+11Be
+
+1/21/2+
+AMD
+expt.
+AMD
++RGM
+
+2×p3/2 , p1/2
+3/2
+
+p3/2
+
+2+
+
+0
+
+3/2-
+
+3/23/2-
+
+Fig. 5 The calculated and observed excitation spectra of 10 Be and
+11 Be. The energy is relative to the ground state of 10 Be
+
+1/2
+
++
+1/2
+
+8
+
+2+
+
+3
+energy [MeV]
+
+2
+
+y [fm]
+
+y [fm]
+
+10Be (proton)
+
+2
+
+4
+r [fm]
+
+6
+
+8
+
+Fig. 4 Schematic figure showing the behavior of the molecular orbits
+of α + α cluster system as a function of the inter-cluster distance. The
+orbits plotted with red lines show the molecular orbits (π - and σ -orbits)
+relevant to the low-lying states of 10 Be and 11 Be. This figure is reconstructed from Fig. 1 of Ref. [43]
+
+occupies the σ -orbit. These molecular-orbit configurations
+are often denoted as π 2 (10 Be) and π 2 σ (11 Be). As discussed
+in Refs. [42–49], the π -orbit reduces the α + α clustering,
+while the σ -orbit enhances it. This feature originates in the
+single-particle energies of the molecular orbits as a function
+of the inter-cluster distance illustrated in Fig. 4. The singleparticle energy of the π -orbit (σ -orbit) decreases (increases)
+as a function of the inter-cluster distance. As a result, the
+π -orbit (σ -orbit) favors weaker (stronger) α + α clustering.
+Since, 11 Be has an additional neutron in the σ -orbit, it manifests more pronounced α + α clustering than 10 Be as seen in
+its proton density distribution (Fig. 3) and larger quadrupole
+deformation parameter (Table 1). These characteristics of
+10 Be and 11 Be qualitatively agree with those discussed in
+the preceding studies [46–50]. We also note that the σ -orbit
+is a linear combination of the spherical sd-shells, and hence,
+the valence neutron wave function (overlap amplitude) of
+11 Be should be, in general, an admixture of the l = 0 and 2
+components.
+Figure 5 shows the excitation spectra of 10 Be and 11 Be
+obtained by the GCM calculations (denoted as AMD in the
+figure). Contrary to observation, the adopted effective inter-
+
+action does not bind 11 Be, although it gives the correct order
+of the 1/2± doublet and other excited states of 11 Be. The
+shortage of the binding energy is due to the insufficient
+description of the asymptotics of the valence neutron wave
+function by the AMD framework.
+The s-wave valence neutron wave function shown in Fig. 6
+(black dotted line) decays at short distance and does not
+show halo nature, reflecting the fact that the AMD framework approximates the valence neutron wave function by a
+single Gaussian. As a result, neither the binding energy nor
+the large matter radius of 11 Be are reproduced [4].
+To overcome this problem, we have performed the
+AMD+RGM calculation which superposes the Gaussian
+wave packets to describe the asymptotics of neutron halo.
+Figure 6 shows how the AMD+RGM drastically improves the
+results. The asymptotics of the s-wave (10 Be(0+ )⊗s1/2 channel) is greatly extended toward outside of the core nucleus,
+and the neutron distribution radius is considerably increased
+compared to that calculated by AMD (Table 1). On the contrary, the asymptotics of the d-wave (10 Be(2+ ) ⊗ d3/2 and
+10 Be(2+ ) ⊗ d
+5/2 channels) do not change significantly. This
+may be due to the centrifugal barrier in these channels which
+prevents the long-ranged stretched asymptotics. Thanks to
+the improved asymptotics, the kinetic energy of the halo orbit
+is reduced and the calculated one-neutron separation energy
+is now comparable with the observed value.
+An interesting side effect brought about by the AMD+RGM
+is the reduction of the core deformation and the decoupling
+between the core and valence neutron. As listed in Table 1, the
+quadrupole deformation of the proton distribution decreases
+in the AMD+RGM result (β p = 0.65) compared to that of
+AMD (β p = 0.70). This implies that the coupling between
+the core (10 Be) and the valence neutron is weakened, and
+the core polarization decreases. Indeed, in the AMD+RGM
+
+123
+
+203 Page 6 of 12
+
+Eur. Phys. J. A (2021) 57:203
+
+Table 1 The calculated and observed one-neutron separation energy
+2  and r 2 ).
+(Sn ), charge and point nucleon distribution radii ( rch
+m
+The second and third rows shows the results obtained by AMD and
+AMD+RGM calculations, respectively. The calculated point neutron
+
+distribution radii ( rn2 ) and the quadrupole deformation parameter
+for proton and neutron (β p and βn ) are also tabulated. The proton finite
+size effect is taken into account for the charge radii, while it is not for
+the neutron and matter radii
+
+AMD(+RGM)
+
+expt.
+rm2 
+
+rn2 
+
+βp
+
+βn
+
+Sn
+(MeV)
+
+2 
+rch
+(fm)
+
+rm2 
+(fm)
+
+2.42
+
+0.60
+
+0.56
+
+6.81
+
+2.355(17)
+
+2.30(2)
+
+2.71
+
+0.70
+
+0.69
+
+0.50
+
+2.463(15)
+
+2.73(5)
+
+0.65
+
+0.62
+
+Sn
+(MeV)
+
+(fm)
+
+(fm)
+
+10 Be
+
+6.21
+
+2.43
+
+2.35
+
+11 Be
+
+−0.22
+
+2.54
+
+2.59
+
+0.48
+
+2.55
+
+2.71
+
+2.89
+
+(fm)
+
+result, the spectroscopic factor of the s-wave increases, while
+that of the d-wave decreases compared to the AMD results.
+Thus, the AMD+RGM framework brings about a remarkable improvement of the neutron wave function and offers a
+reasonable description of the neutron halo of 11 Be with the
+deformed core nucleus 10 Be. It is also noted that the overlap amplitudes obtained by the AMD+RGM (Fig. 6) look
+consistent with those obtained by an ab-initio calculations
+[9,51,52]. Namely, the 10 Be(01+ ) ⊗ s1/2 configuration dominates the 1/2+ ground state followed by the core-excited
+10 Be(2+ ) ⊗ d
+10 Be(2+ ) ⊗ d
+3/2 and
+5/2 configurations. An
+1
+1
+interesting point is that both the present calculation and abinitio calculations [9,51] predict a larger spectroscopic factor
+of the 10 Be(21+ )⊗d3/2 than the 10 Be(21+ )⊗d5/2 in contradiction to the normal shell ordering. We note that the calculations
+[53–55] which use the deformed Woods-Saxon potential for
+the core-valence coupling yield opposite trend of the spectroscopic factors following the normal shell ordering. This
+indicates that the core-valence coupling potentials are different between the microscopic calculations and phenomenological ones. For further understanding of the core-valence
+coupling, more detailed experimental information about the
+spectroscopic factors is indispensable.
+For later use, we further improved the asymptotics of
+the valence neutron wave function to be consistent with
+the observed one-neutron separation energy, Sn = 0.50
+MeV. The s-wave overlap function u 0 (r ) calculated from
+AMD+RGM is smoothly connected to the exact asymptotics
+√
+of A exp(−κr ) where κ = 2μSn /h̄ and μ is being the
+reduced mass for 10 Be + n system. The amplitude A and the
+matching distance a are determined from the condition,
+
+
+
+
+d
+d
+u 0 (r )
+A exp(−κr )
+=
+.
+dr
+dr
+r =a
+r =a
+
+(21)
+
+The overlap function with the tail correction, thus obtained,
+is shown by the dashed line in Fig. 6. This overlap function
+is used as an input to calculate various reaction observables
+in the breakup of 11 Be on a heavy target in the subsequent
+sections.
+
+123
+
+0.4
+AMD
+AMD+RGM
+
+0.3
+[arb. unit]
+
+2 
+rch
+
+AMD
+AMD+RGM
+
+0.2
+0.1
+0
+-0.1
+-0.2
+AMD
+AMD+RGM
+tail correction
+
+-0.3
+-0.4
+0
+
+5
+
+r [fm]
+
+10
+
+15
+
+Fig. 6 The overlap amplitudes of the valence neutron of 11 Be calculated by the AMD and AMD+RGM. The amplitude is arbitrary scaled
+for the presentation
+
+3.1.1 Wave function inputs for reaction calculations
+The bound state, single-particle radial wave function of 11 Be
+has been built from a 10 Be(0+ )⊗ 1s1/2 ν configuration with
+a one neutron separation energy (Sn ) of 0.50 MeV. It is also
+known that the contribution from the d-wave configuration
+is an order of magnitude lower than the s-wave and so any
+admixture (along with a low spectroscopic factor, cf. Table 2)
+would not be perceptible in reaction observables (see e.g.
+Refs. [15,54,56]).
+The bound state radial wave function of 11 Be was constructed in two ways. The first by considering a Woods-Saxon
+potential of 70.99 MeV, radius (r0 ) and diffuseness (a) parameters as 1.15 fm and 0.50 fm, respectively, so as to reproduce
+the one-neutron separation energy of 0.50 MeV. The other
+is by using the overlap wave function obtained by the AMD
++ RGM framework with tail correction, as described earlier. In all subsequent sections we refer to this wave function
+as the AMD wave function itself. The two wave functions
+are compared in Fig. 7. The solid and dashed lines show
+the phenomenological WS and the microscopic AMD wave
+functions, respectively.
+
+Eur. Phys. J. A (2021) 57:203
+
+Page 7 of 12 203
+
+Table 2 The calculated spectroscopic factors which are obtained from the integral of the overlap amplitudes shown in Fig. 6
+Channel
+10 Be(0+ ) ⊗ s
+1/2
+1
+10 Be(2+ ) ⊗ d
+3/2
+1
+10 Be(2+ ) ⊗ d
+5/2
+1
+
+AMD
+
+AMD+RGM
+
+Expt.
+
+0.46
+
+0.82
+
+1.0(2) [15], 0.77 [57], 0.74 [3], 0.72(4) [58]
+
+0.38
+
+0.18
+
+0.18 [3]
+
+0.11
+
+0.06
+
+0.6
+
+2  )
+Table 3 Root mean square matter ( r 2  Aa ) and charge ( rch
+Aa
+
+0.3
+
+0
+
+-0.5
+
+ul (r1)
+
+radii of 11 Be in the cluster model
+
+AMD
+WS
+
+0.5
+
+0
+
+2
+
+4
+
+WS (fm)
+
+AMD (fm)
+
+Expt. (fm)
+
+r 2  Aa
+
+2.79
+
+2.78
+
+2.73(0.05) [4]
+
+2 
+rch
+Aa
+
+2.35
+
+2.35
+
+2.463(15) [60]
+
+6
+
+0
+
+square charge radius simplifies to
+-0.3
+
+2
+ Aa =
+rch
+-0.6
+
+0
+
+10
+
+20
+
+30
+
+40
+
+r1 (fm)
+Fig. 7 The normalized bound state radial wave functions of 11 Be in
+WS (solid line) and AMD (dashed line) models. The inset shows the
+wave functions in the nuclear interior
+
+3.1.2 Matter and charge radii in the cluster model
+It will be interesting to calculate the matter and charge radii
+in the cluster model [59], with the phenomenological WS and
+AMD wave functions as inputs and compare them with those
+obtained in the previous section (Table 1). The mean square
+2 
+matter radius r 2  Aa and charge radius rch
+Aa of a dicluster
+nucleus of mass number Aa and charge Z a (consisting of
+subclusters Ab , Z b and Ac , Z c ) can be written as [59]
+r 2  Aa =
+
+Ab 2
+Ac 2
+Ab ∗ Ac 2
+r  Ab +
+r  Ac +
+R ,
+Aa
+Aa
+Aa2
+
+(22)
+
+and
+  2
+Zb 2
+Zc 2
+R 2 
+Ac
+2
+rch  Aa =
+Zb.
+r  Ab +
+r  Ac +
+Za
+Za
+Za
+Aa
+ 2 
+Ab
+,
+(23)
++Z c .
+Aa
+respectively. In Eqs. (22) and (23), R 2  = u l (r1 )|r12 |u l (r1 ).
+In our case, b and c are the core (10 Be) and the valence
+neutron of the projectile respectively. The second term in
+Eq. (22), is also neglected while estimating the mean square
+matter radius. Furthermore, given that Z c = 0, the mean
+
+  2 
+Zb 2
+R 2 
+Ac
+Zb.
+.
+r  Ab +
+Za
+Za
+Aa
+
+(24)
+
+For our calculations, we have used the size of the charged
+core, r 2  Ab = 2.28 fm. [61]. Evidently, the WS and the
+AMD wave functions directly enter the calculation of the
+radii only through R 2  term in Eqs. (22–24). Thus any difference between the phenomenological WS wave function
+and the microscopic AMD will be reflected in R 2 . We have
+also used a spectroscopic factor of 0.82 (in Table 2), obtained
+in the structural calculations shown earlier.
+In Table 3, we show that our calculated root mean square
+matter and charge radii using both the WS and AMD wave
+functions compare well with the available data. The matter radius calculated from other models such as relativistic
+mean field model (2.52 fm [6]), Glauber model (2.76(0.03)
+fm [7]), and fermionic molecular dynamics model (2.80 fm
+[8]) also agree well with our results. Similarly, the charge
+radius deduced from the fermionic molecular dynamics (2.38
+fm [8]) and no core shell model (2.37(11) fm [9]) agree well
+with the WS and AMD results.
+3.2 Reaction observables
+3.2.1 Triple differential cross section
+In Fig. 8 we plot the triple differential cross sections in the
+breakup of 11 Be on 197 Au target at a beam energy of 44
+MeV/nucleon as a function of the neutron energy (En ), for
+four different combinations of the neutron angle (θn ) and the
+angle of the charged fragment (θb ). As in the calculations
+of the matter and charge radii, within the cluster model, the
+spectroscopic factor for the s-wave configuration is taken as
+0.82 in all our breakup observables. This is in line with the
+
+123
+
+203 Page 8 of 12
+
+200
+
+1600
+
+3
+
+2
+
+d σ/dEndΩndΩb (mb/ MeV .sr )
+
+Fig. 8 Triple differential cross
+section for the breakup of 11 Be
+on 197 Au at a beam energy of 44
+MeV/nucleon. The solid and
+dashed lines correspond to WS
+and AMD calculations,
+respectively. For more details
+see text
+
+Eur. Phys. J. A (2021) 57:203
+
+1200
+
+WS
+AMD
+
+θn = θb = 1
+
+o
+
+o
+
+150
+
+800
+
+100
+
+400
+
+50
+
+0
+20
+
+30
+
+40
+
+50
+
+70
+
+60
+
+40
+
+0
+20
+
+o
+
+θn =1 , θb = 10
+
+30
+
+40
+
+50
+
+70
+
+60
+
+30
+o
+
+θn =10 , θb = 1
+
+30
+
+o
+
+θn = θb = 10
+
+o
+
+20
+20
+10
+10
+0
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+0
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+En (MeV)
+estimates being commonly used in the literature, which is
+close to unity (see Table 2).
+As expected the cross sections are indeed larger at small
+scattering angles as the breakup is Coulomb dominated. We
+observe that the calculations obtained from both the WS and
+AMD wave functions are similar. Given that triple differential cross sections are exclusive reaction observables, this
+similarity in results builds up an expectation that other reaction observables may also not be too different while using
+these wave functions. This is because other inclusive reaction observables can be obtained from the triple differential
+cross section after performing suitable integrations over various kinematic parameters.
+
+3.2.2 Neutron energy distribution
+We now calculate the neutron energy distribution in the
+breakup of 11 Be on 197 Au and compare it with existing experimental data (solid circles) [62], at θn = 1◦ . Incidentally, the
+beam energy for the same experimental data was not unique
+and was in the range of 36.9–44.1 MeV/u. To take care of this
+variation in our calculation, in Fig. 9 we have shown the neutron energy distribution using the WS (solid line) and AMD
+(dashed line) wave functions, calculated at a series of beam
+energies ranging from 37 to 44 MeV/u. In the same figure
+(Fig. 9(h), dot-dashed line), we have also plotted the average
+of all the WS results performed at different beam energies.
+With the progress in current radioactive ion beam facilities, it would indeed be interesting to perform these exclusive
+
+123
+
+measurements as that could constrain the spread in the data
+seen in Fig. 9.
+
+3.2.3 Parallel momentum distribution
+We now turn our attention to the PMD of the charged fragment in the breakup of 11 Be on 181 Ta at a beam energy of
+63 MeV/u. The width of this distribution is also a measure
+of the size of the nucleus in coordinate space. From a statistical model
+calculation [63], the width can be given by
+
+Δ2 = Δ20 Ab (Aa − Ab )/Aa ), where Aa and Ab are the mass
+numbers of the projectile and fragment, respectively and Δ0
+(≈ 80 MeV/c) has a constant value and it is also known to be
+independent of target mass and beam energy. This approximation suggests that the width of the 10 Be distribution in the
+breakup of 11 Be could be approximately 80 MeV/c. However, the experimental FWHM of the PMD for the s-wave
+configuration has been found to be 43.6 ± 1.1 MeV/c [64].
+In Fig. 10 we show our fully quantum mechanical calculation of the PMD of the charged core (10 Be) fragments emitted during the elastic Coulomb breakup of 11 Be on 181 Ta at a
+beam energy of 63 MeV/u, in the rest frame of the projectile.
+The solid and the dashed lines correspond to our calculations with WS and AMD wave functions, respectively and
+are normalized to the peak of the data. The FWHM for both
+the theoretical (WS and AMD) calculations are 42 MeV/c
+which is in good agreement with the experimental value of
+43.6 ± 1.1 MeV/c from Ref. [64].
+
+Eur. Phys. J. A (2021) 57:203
+
+Page 9 of 12 203
+
+Fig. 9 Neutron energy
+distributions in the Coulomb
+breakup of 11 Be on a gold target
+at beam energies ranging from
+37 to 44 MeV/nucleon,
+calculated using WS (solid line)
+and AMD (dashed line) wave
+functions. The experimental
+data are shown by solid circles
+are from Ref. [62]. In figure (h),
+the dot-dashed line shows the
+average of all the WS results
+performed at different beam
+energies
+
+37 MeV/u
+(a)
+
+2
+
+d σ/dEndΩn (b/MeV .sr)
+
+4
+2
+
+2
+
+0
+
+0
+39 MeV/u
+(c)
+
+4
+
+2
+
+0
+
+0
+41 MeV/ u
+(e)
+
+2
+
+0
+
+0
+43 MeV/u
+(g)
+
+44 MeV/u
+(h)
+
+4
+
+2
+0
+
+42 MeV/u
+(f)
+
+4
+
+2
+
+4
+
+40 MeV/u
+(d)
+
+4
+
+2
+
+4
+
+38 MeV/u
+(b)
+
+4
+
+2
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+0
+
+70
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+70
+
+60
+
+En (MeV)
+2
+
+600
+Expt.
+AMD
+WS
+
+63MeV/u
+
+WSN
+WS
+AMD
+
+69 MeV/u
+
+dσ/dErel (b/MeV)
+
+dσ/dpz (arb. units)
+
+1.5
+400
+
+200
+
+1
+
+θcm ≤ 6
+
+0.5
+
+0
+-100
+
+-50
+
+0
+
+50
+
+100
+
+pz (MeV/c)
+Fig. 10 The parallel momentum ( pz ) distribution of 10 Be in the elastic
+Coulomb breakup of 11 Be on 181 Ta at 63 MeV/u in the rest frame of
+
+0
+
+θcm ≤ 1.3
+0
+
+o
+
+o
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Erel (MeV)
+
+3.2.4 Relative energy spectrum and dipole response
+
+Fig. 11 The relative energy spectra obtained in the elastic Coulomb
+breakup of 11 Be on 208 Pb at 69 MeV/u [58]. The dotted, solid and the
+dashed line represents FRDWBA calculation using WSN (r0 = 1.236
+fm, a = 0.62 fm), WS (r0 = 1.15 fm, a = 0.5 fm) and AMD wave
+functions, respectively. The experimental data sets, from Ref. [58], are
+shown by solid circles (θcm < 6◦ ) and solid squares (θcm < 1.3◦ ). The
+theoretical results are multiplied with a spectroscopic factor of 0.82
+
+We now continue our efforts in testing the WS and the AMD
+wave functions by calculating the relative energy spectrum
+and the dipole strength distribution of 11 Be on a heavy target. In Fig. 11, we show the relative energy spectrum in the
+elastic Coulomb breakup of 11 Be on a 208 Pb target at a beam
+energy of 69 MeV/u and compare our results with the avail-
+
+able experimental data [shown by solid circles (θcm < 6◦ )
+and solid squares (θcm < 1.3◦ )], from Ref. [58].
+For the phenomenological wave function, while we have
+used a standard set of WS parameters (r0 = 1.15 fm, a =
+0.5 fm) as before, we also consider a slightly new Woods-
+
+the projectile. The solid and dashed lines correspond to WS and AMD
+calculations, respectively and the experimental data, shown by solid
+circles, are from Ref. [64]
+
+123
+
+1 The depth of the new Woods-Saxon potential (WSN) will then be
+
+59.05 MeV.
+
+123
+
+2
+
+WSN
+WS
+AMD
+Data from Ref. [66]
+Data from Ref. [67]
+NCSMC: Ref. [51]
+PR: Ref. [67]
+
+0.8
+
+0.6
+
+2
+
+Saxon potential (WSN) with parameters (r0 = 1.236 fm, a
+= 0.62 fm), also used in Ref. [58], as a point of comparison
+while estimating the relative energy and the dipole strength
+distribution. While the one-neutron separation energy1 for
+11 Be will still be 0.50 MeV, the matter radius and the charge
+radius will turn out to be 2.85 fm and 2.35 fm, respectively
+for the new set, WSN (see also Table 3 for a comparison).
+The dotted, solid and the dashed lines represent FRDWBA
+calculations using the WSN, WS and the AMD wave functions, respectively. The angular integration of the n−10 Be
+center of mass scattering angle with respect to the target
+(θcm ) has been performed till forward angles 6◦ and 1.3◦ ,
+as per the experimental conditions [58]. We note that the
+WSN, WS and AMD results are able to reproduce the peak
+positions of the relative energy spectra quite well. Contributions at higher relative energies are dominated by the nuclear
+breakup [29,65].
+The total one neutron removal cross sections (σn ), obtained
+by integrating the relative energy spectrum (center of mass
+scattering angle considered till 6◦ ) with the WSN, WS and
+AMD wave functions, are 1.328 b, 1.307 b and 1.113 b,
+respectively. In comparison, the estimated pure Coulomb
+(E1) cross section in Ref. [58] is 1.510 ± 0.092 b.
+We now turn our attention to the deduction of the dipole
+strength distribution in the breakup of 11 Be from the relative energy spectra, using Eq. (3). Given that the grazing
+angle for the breakup of 11 Be on Pb at a beam energy of
+69 MeV/u will be close to 3.8◦ , the relative energy spectra measured till 6◦ may not be purely Coulomb dominated
+and can have traces of nuclear breakup and Coulomb-nuclear
+interference effects [66,67]. Therefore, while extracting the
+dipole strength distribution, we choose to work with the relative energy calculation in which the angular integration of
+the n−10 Be center of mass scattering angle with respect to
+the target (θcm ) has been performed till 1.3◦ to match with
+the experimental conditions [58].
+In Fig. 12, we show the dipole strength distribution in
+the breakup of 11 Be as a function of the n−10 Be relative
+energy. The dotted, solid and dashed lines correspond to calculations incorporating the WSN, WS and AMD wave functions, respectively. They have all been multiplied with the
+spectroscopic factor of 0.82, predicted by the AMD calculations. These are compared with the data extracted from two
+different measurements of the relative energy spectra. The
+solid circles show the data of Ref. [66] extracted from the
+angle-selected (θcm < 1.3◦ ) relative energy spectra, using
+the equivalent photon method, in the breakup of 11 Be on
+Pb at 72 MeV/u [15]. The solid squares, on the other hand,
+are from Ref. [67] deduced from the relative energy spectra
+(θcm < 1.3◦ ) of Ref. [58], in conjunction with the extended
+
+Eur. Phys. J. A (2021) 57:203
+
+dB(E1)/dErel (e fm / MeV)
+
+203 Page 10 of 12
+
+0.4
+
+0.2
+
+0
+
+-0.2
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Erel (MeV)
+
+Fig. 12 The dipole strength distributions of 11 Be deduced from the
+measurement of the relative energy spectra (Fig. 11). The dotted, solid
+and the dashed line represents FRDWBA calculations using WSN (r0 =
+1.236 fm, a = 0.62 fm), WS (r0 = 1.15 fm, a = 0.5 fm) and AMD wave
+functions, respectively. The theoretical FRDWBA results are multiplied
+with a spectroscopic factor of 0.82. The data shown by solid circles
+and solid squares are extracted from Refs. [66] and [67], respectively.
+For comparison, we have also shown the dipole distributions calculated
+with the particle-plus-rotor (PR) structure model (dot-dashed), extracted
+from Ref. [67], and NCSMC (double-dot-dashed), extracted from Ref.
+[51]. For more details, please see the text
+
+continuum discretized coupled-channels (XCDCC) model.
+For more details one is referred to Ref. [67].
+We note that the WSN, WS and AMD results are able to
+reproduce the peak positions of the dipole distribution but
+some deviations are also noted at higher relative energies.
+These could originate from the traces of nuclear breakup and
+Coulomb-nuclear interference effects in the relative energy
+spectra. Furthermore, these estimates are not convoluted
+with the experimental resolution, although they are multiplied with the spectroscopic factor. Similar attempts to calculate the dipole strength distributions of 11 Be has been made
+in Ref. [51] using the “no-core shell model with continuum” (NCSMC) involving nucleon-nucleon (NN) and threenucleon (3N) interactions and are shown in Fig. 12 by the
+double-dot-dashed line. In Ref. [67], the particle-plus-rotor
+(PR) structure model (referred to as the S5 model, in Fig. 5 of
+Ref. [67]) has also been used to calculate the dipole strength
+distributions (dot-dashed line in Fig. 12). Noticeably, a dip is
+found in both the above calculations between 2 and 3 MeV,
+which could be due to the presence of a 3/2− resonance in
+the n−10 Be continuum [51].
+The total B(E1) (considered till 4 MeV) for 11 Be has been
+reported to be 1.05 ± 0.06 e2 f m 2 [58]. The corresponding values obtained by integrating the NCSMC (double-dotdashed) and the PR (dot-dashed) calculations in Fig. 12 are
+1.14 e2 f m 2 and 0.94 e2 f m 2 , respectively. In comparison,
+our FRDWBA calculations yield 0.73, 0.72 and 0.61 e2 f m 2
+with WSN, WS and AMD wave functions, respectively. In
+all these cases the integration over the relative energy (in
+Fig. 12) has been considered till 4 MeV.
+
+Eur. Phys. J. A (2021) 57:203
+
+We emphasize that our post form FRDWBA considers the
+breakup process to be a one-step process [29] and hence the
+agreement of our calculations with the experimental data is a
+direct proof that the enhanced dipole strength at low energies
+is due to the breakup of nucleus into the continuum and not
+because of any soft dipole resonance. A similar conclusion
+was also reached by the authors of [58].
+Interestingly, in an extreme single-particle model, provided other excited bound states do not contribute to the
+dipole transition, the total B(E1) is known to be proportional to the mean square radius of the valence nucleon (rν2 )
+[19,20,68–70], via B(E1) = (3/4π )(Z a e/Aa )2 rν2 . Under
+this approximation, using the theoretical estimates of B(E1)
+obtained earlier, the root mean square radius of the valence
+neutron ( rν2 ) with the WSN, WS and the AMD wave
+functions turns out to be 4.80 fm, 4.77 fm and 4.39 fm,
+respectively. These are slightly lower than the corresponding experimental value of 5.77 ± 0.16 fm in Ref. [58] and
+6.4 ± 0.7 fm in Ref. [15].
+
+4 Conclusions
+
+Page 11 of 12 203
+
+presented and compared with experimental data, wherever
+available. The upshot of this method is that the same input is
+used to calculate various exclusive and inclusive observables.
+Given the validity of our method in the low mass region, it
+would also be interesting to extend our calculations to the
+deformed medium mass region of the nuclear chart where
+experimental data are scarce.
+In retrospect, given that we have primarily considered
+electromagnetic breakup on heavy targets with forward angle
+measurements, the nuclear contribution would be very less.
+Theoretical estimates [65,67,71] suggest that this is in the
+range of five to ten percent compared to the “pure Coulomb”
+part. Nevertheless, it will be interesting to estimate them in
+the breakup of medium mass exotic nuclei on heavy targets,
+which is of very recent interest.
+Acknowledgements This work was supported by the Scheme for
+Promotion of Academic and Research Collaboration (SPARC/20182019/P309/SL), Ministry of Education, India. M.K. acknowledges the
+support from JSPS KAKENHI Grant No. 19K03859, the collaborative research programs 2020, Information Initiative Center at Hokkaido
+University and the COREnet program at the RCNP, Osaka University.
+M.D. acknowledges a doctoral research fellowship from the Ministry
+of Education, India.
+
+Data Availability Statement This manuscript has no associated data
+We have investigated the static properties and reaction
+11
+or the data will not be deposited. [Authors’ comment: Queries regarding
+observables of Be breaking in the presence of Coulomb
+the calculations should be addressed to the authors.]
+208
+field of Pb. For our theoretical calculations we have combined the AMD framework and the fully quantum mechanical
+FRDWBA model.
+We have used the AMD to describe the structure and
+References
+the valence neutron wave function of 11 Be. To incorporate the long-ranged asymptotics of the halo wave function,
+1. I. Tanihata et al., Phys. Rev. Lett. 55, 2676 (1985)
+an extended AMD framework named AMD+RGM has also
+2. R. Shubhchintak, Chatterjee, Phys. Rev. C 90, 017602 (2014)
+3. T. Aumann, T. Nakamura, Phys. Scr. T152, 014012 (2013)
+been adopted. The AMD+RGM has drastically improved the
+4. I. Tanihata et al., Phys. Lett. B 206, 592 (1988)
+asymptotics of halo wave function, and plausibly described
+5. W. Nörtershäuser et al., Phys. Rev. Lett. 102, 062503 (2009)
+various properties such as charge and neutron distribution
+6. J.S. Wang et al., Nucl. Phys. A 691, 618 (2001)
+radii, one neutron separation energy and excitation spectrum.
+7. Suhel Ahmed, A.A. Usmani, Z.A. Khan, Phys. Rev. C 96, 064602
+(2017)
+The valence neutron wave function calculated by AMD+RGM
+8. A. Krieger et al., Phys. Rev. Lett. 108, 142501 (2012)
+was used as an input of the FRDWBA model to describe the
+9. C. Forssén, E. Caurier, P. Navrátil, Phys. Rev. C 79, 021303 (2009)
+dynamical properties of 11 Be. The advantage of the method
+10. R.E. Warner et al., Phys. Rev. C 64, 044611 (2001)
+over other first-order perturbative theories is that it requires
+11. P. Capel et al., J. Phys: Conf. Ser. 1023, 012010 (2018)
+12. A. Leistenschneider et al., Phys. Rev. Lett. 86, 5442 (2001)
+only the ground state wave function of the projectile as an
+13. J. Chambers et al., Phys. Rev. C 50, R2671 (1994)
+input and includes all orders of the electromagnetic interac14. Y. Suzuki, K. Ikeda, H. Salto, Prog. Theor. Phys. 83, 180 (1990)
+tion between the fragments and the target.
+15. T. Nakamura et al., Phys. Lett. B 331, 296 (1994)
+Apart from the many body AMD, phenomenological
+16. T. Nakamura et al., Phys. Rev. Lett. 83, 1112 (1999)
+17. S. Nakayama et al., Phys. Rev. Lett. 85, 262 (2000)
+Woods-Saxon wave functions have also been used for the pur18. R. Kanungo, I. Tanihata, C. Samanta, Prog. Theor. Phys. 102, 1133
+pose of comparison. We have shown that the static properties
+(1999)
+calculated with these wave functions, mainly the matter and
+19. C.A. Bertulani, G. Baur, M.S. Hussein, Nucl. Phys. A 526, 751
+11
+charge radii of Be, are in good agreement with the available
+(1991)
+20. C.A. Bertulani, A. Sustich, Phys. Rev. C 46, 6 (1992)
+data. This gave us the confidence to calculate several reac21. S. Goriely, Phys. Lett. B 436, 10 (1998)
+tion observables in the breakup of 11 Be on heavy targets.
+22. C.A. Bertulani, Eur. Phys. J. A 55, 240 (2019)
+Several observables like the triple differential cross section,
+23. Y. Kanada-En’yo, M. Kimura, H. Horiuchi, C R Phys. 4, 497 (2003)
+neutron energy distribution, parallel momentum distribution,
+24. Y. Kanada-En’yo, M. Kimura, A. Ono, Prog. Theor. Exp. Phys.
+2012, 01A202 (2012)
+relative energy spectrum and dipole strength distribution are
+
+123
+
+203 Page 12 of 12
+25. M. Kimura, T. Suhara, Y. Kanada-En’yo, Eur. Phys. J. A 52, 373
+(2016)
+26. J.A. Lay, A.M. Moro, J.M. Arias, Phys. Rev. C 89, 014333 (2014)
+27. R. de Diego et al., Phys. Rev. C 89, 064609 (2014)
+28. H. Fuchs, Nucl. Instrum. Methods 200, 361 (1982)
+29. R. Chatterjee, R. Shyam, Prog. Part. Nucl. Phys. 103, 67 (2018)
+30. C.A. Bertulani, G. Baur, Phys. Rep. 163, 299 (1988)
+31. G. Baur, C.A. Bertulani, H. Rebel, Nucl. Phys. A 458, 188 (1986)
+32. Manju, J. Singh, Shubhchintak, R. Chatterjee, Eur. Phys. J. A 55,
+5 (2019)
+33. J.F. Berger, M. Girod, D. Gogny, Comput. Phys. Commun. 63, 365
+(1991)
+34. H. Homma, M. Isaka, M. Kimura, Phys. Rev. 91, 014314 (2015)
+35. M. Kimura, Phys. Rev. C 69, 044319 (2004)
+36. M. Kimura, R. Yoshida, M. Isaka, Prog. Theor. Phys. 127, 287
+(2012)
+37. D.L. Hill, J.A. Wheeler, Phys. Rev. 89, 1102 (1953)
+38. K. Minomo, T. Sumi, M. Kimura, K. Ogata, Y.R. Shimizu, M.
+Yahiro, Phys. Rev. C 84, 034602 (2011)
+39. K. Minomo, T. Sumi, M. Kimura, K. Ogata, Y.R. Shimizu, M.
+Yahiro, Phys. Rev. Lett. 108, 052503 (2012)
+40. T. Sumi, K. Minomo, S. Tagami, M. Kimura, T. Matsumoto, K.
+Ogata, Y.R. Shimizu, M. Yahiro, Phys. Rev. C 85, 064613 (2012)
+41. M. Kimura, Phys. Rev. C 95, 034331 (2017)
+42. W. von Oertzen, M. Freer, Y. Kanada-En’yo, Phys. Rep. 432, 43
+(2006)
+43. W. von Oertzen, II Nuovo Cimento A 110, 895 (1997)
+44. W. von Oertzen, Z. Physik A 357, 355 (1997)
+45. S. Okabe, Y. Abe, H. Tanaka, Prog. Theor. Phys. 57, 866 (1979)
+46. Y. Kanada-Enyo, H. Horiuchi, A. Dote, Phys. Rev. C 64, 0564304
+(1999)
+47. N. Itagaki, S. Okabe, Phys. Rev. C 61, 044306 (2000)
+48. N. Itagaki, S. Okabe, K. Ikeda, I. Tanihata, Phys. Rev. C 64, 014301
+(2001)
+
+123
+
+Eur. Phys. J. A (2021) 57:203
+49. Y. Kanada-En’yo, H. Horiuchi, Phys. Rev. C 68, 014319 (2003)
+50. T. Neff, H. Feldmeier, R. Roth, Nucl. Phys. A 752, 321 (2005)
+51. A. Calci, P. Navrátil, R. Roth, J. Dohet-Eraly, S. Quaglioni, G.
+Hupin, Phys. Rev. Lett. 117, 242501 (2016)
+52. A. Bonaccorso, F. Cappuzzello, D. Carbone, M. Cavallaro, G.
+Hupin, P. Navrátil, S. Quaglioni, Phys. Rev. C 100, 024617 (2019)
+53. H. Esbensen, B.A. Brown, H. Sagawa, Phys. Rev. C 51, 1274 (1995)
+54. F.M. Nunes, I.J. Thompson, R.C. Johnson, Nucl. Phys. A 596, 171
+(1996)
+55. F. Barranco et al., Phys. Rev. Lett. 119, 082501 (2017)
+56. R. Chatterjee, P. Banerjee, R. Shyam, Nucl. Phys. A 675, 477 (2000)
+57. B. Zwieglinski, W. Benenson, R.G.H. Robertson, W.R. Coker,
+Nucl. Phys. A 315, 124 (1979)
+58. N. Fukuda et al., Phys. Rev. C 70, 054606 (2004)
+59. A. Mason, R. Chatterjee, L. Fortunato, A. Vitturi, Eur. Phys. J. A
+39, 107 (2009)
+60. M. Žáková et al., J. Phys. G. 37, 055107 (2010)
+61. J.S. Al-Khalili, J.A. Tostevin, Phys. Rev. Lett. 76, 3903 (1996)
+62. R. Anne et al., Nucl. Phys. A 575, 125 (1994)
+63. A.S. Goldhaber, Phys. Lett. B 53, 306 (1974)
+64. J.H. Kelly et al., Phys. Rev. Lett. 74, 30 (1995)
+65. R. Chatterjee, Phys. Rev. C 68, 044604 (2003)
+66. T. Aumann, T. Nakamura, Phys. Scr. 2013, 014012 (2013)
+67. A.M. Moro, J.A. Lay, J. Gómez Camacho, Phys. Lett. B 811,
+135959 (2020)
+68. J.H. Esbensen, G.F. Bertsch, Nucl. Phys. A 542, 310 (1992)
+69. M.A. Nagarajan, S.M. Lenzi, A. Vitturi, Eur. Phys. J. A 24, 63
+(2005)
+70. S. Typel, G. Baur, Nucl. Phys. A 759, 247 (2005)
+71. L. Moschini, P. Capel, Phys. Lett. B 790, 367 (2019)
+
+

@@ -1,0 +1,2201 @@
+arXiv:nucl-th/0003040v2 21 Mar 2000
+
+Projectile structure effects in the Coulomb
+breakup of one-neutron halo nuclei
+Rajdeep Chatterjee a,1, Prabir Banerjee a,2 and
+Radhey Shyam a,3
+a Theory Group, Saha Institute of Nuclear Physics, 1/AF Bidhan Nagar,
+
+Calcutta - 700 064, INDIA.
+
+Abstract
+We investigate the Coulomb breakup of neutron rich nuclei 11 Be and 19,17,15 C within
+a theory developed in the framework of Distorted Wave Born Approximation. Finite range effects are included by a local momentum approximation, which allows
+incorporation of realistic wave functions for these nuclei in our calculations. Energy
+and angular as well as parallel momentum distributions of the fragments emitted
+in the breakup of these nuclei on heavy targets have been calculated using several
+structure models for their ground state. Comparison with the available experimental data shows that the results are selective about the ground state wave function of
+the projectile. Our investigations confirm that the nuclei 11 Be, 19 C and 15 C have a
+one-neutron halo structure in their ground states. However, for 17 C such a structure
+appears to be less likely. Calculations performed within our method have also been
+compared with those from an adiabatic model and the results are discussed.
+PACS numbers: 21.10.Hw, 21.60.-n, 24.10.Eq, 25.60.Gc
+Key words: Coulomb breakup, one-neutron halo nucleus, effects of projectile
+structure.
+
+1
+
+Introduction
+
+It has now been well established that close to the neutron drip line, there exist nuclei having one, or some times two, very loosely bound valence neutrons
+extending too far out in space with respect to a dense charged core [1]. The
+1
+
+e-mail: raja@tnp.saha.ernet.in
+e-mail: prabir@tnp.saha.ernet.in
+3 e-mail: shyam@tnp.saha.ernet.in
+2
+
+Preprint submitted to Elsevier Preprint
+
+1 November 2018
+
+properties of these neutron halo nuclei [2] have been reviewed by several authors (see e.g. [3–6]). The halo systems, which involve a new form of nuclear
+matter, are characterized by large reaction and Coulomb dissociation cross
+sections [7–10]. Moreover, in the breakup reactions induced by these nuclei,
+the angular distributions of neutrons measured in coincidence with the core
+nuclei [11,12] are strongly forward peaked and the parallel momentum distributions of the core fragment have very narrow widths [13–18]. Due to their
+strikingly different properties as compared to those of the stable nuclei, such
+systems provide a stringent test of the nuclear structure models developed for
+the latter.
+The Coulomb dissociation is a significant reaction channel in the scattering
+of halo nuclei from a stable heavy target nucleus. It provides a convenient
+tool to investigate their structure. For instance, it would place constraints
+on their electric dipole response [9,10,19,20]. Of course, in the Serber [21]
+type of models [22,23], the breakup cross sections are directly related to the
+momentum space wave function of the projectile ground state. The studies
+of the Coulomb dissociation of weakly bound nuclei are also of interest due
+to their application in determining the cross sections of the astrophysically
+interesting radiative capture reactions at solar temperatures [24].
+The Coulomb dissociation of halo nuclei has been investigated by several authors recently, using a number of different theoretical approaches. A semiclassical coupled channel formalism has been used by authors of Ref. [25], while
+in Refs. [26,27] the relative motion of the core and the valence particle is described by a time dependent Schrödinger equation. The results within these
+approaches depend on the range of the impact parameter associated with the
+straight line trajectories used to describe the motion of the projectile in the
+field of target nuclei. However, in these studies the emphasis was on investigating the dynamics of the Coulomb dissociation, and not the structure of the
+projectile ground state which was assumed to have some very simple zero range
+(ZR) form. Similar assumption for the projectile structure was also made in
+other semiclassical [23,28] and prior form distorted wave Born approximation
+(DWBA) calculations [29].
+On the other hand, the post form DWBA theory of the breakup reactions
+incorporates the details of the ground state structure of the projectile in the
+breakup amplitude [30]. However, in an earlier application [31] of this theory to
+calculate the breakup of the halo nuclei, the simplifying approximation of the
+zero range interaction was used. This approximation necessarily excludes the
+use of this theory to describe the breakup of non-s – wave projectiles. Moreover
+its applicability is questionable even for s – wave projectiles at higher beam
+energies [32]. Therefore, to investigate the details of the projectile structure
+through breakup reactions within this theory, the inclusion of the finite range
+effects is necessary. It may be noted that in a recently formulated adiabatic
+2
+
+model [33] of the Coulomb breakup reactions, where it is assumed that the
+projectile excitation is predominantly to the states of the low internal energy,
+the details of the ground state wave function also enters in the transition
+amplitude.
+In this paper, we present a theoretical model to describe the Coulomb breakup
+of a projectile within the framework of the post form DWBA where finite
+range effects are included, approximately, via a local momentum approximation (LMA) [34,35]. The exact treatment of the finite range effects within this
+theory, although desirable, is much too complicated as it would lead to six
+dimensional integrals involving functions which are oscillatory asymptotically.
+The LMA leads to two simplifying features. First, it factorises the dynamics of
+the reaction from the structure effects of the projectile and second, it results
+in an amplitude where the term describing the dynamics of the process is the
+same as that evaluated in the ZR approximation. We present the application
+of this theory to the Coulomb breakup of neutron rich nuclei 11 Be and 15,17,19 C
+on a number of heavy targets. We attempt to put constraints on the ground
+state structure of these nuclei by analyzing almost all the available data on the
+energy, angular and longitudinal momentum distributions of fragments using
+various configurations of the projectile ground state.
+Our formalism is presented in section 2. In section 3 we present and discuss the
+results of our calculations for various observable for the reactions mentioned
+above. The summary and the conclusions of our work are described in section
+4. The validity of the approximate method used by us to include the finite
+range effects is presented in appendix A.
+
+2
+
+Formalism
+
+We consider the reaction a + t → b + c + t, where the projectile a breaks up
+into fragments b (charged) and c (uncharged) in the Coulomb field of a target
+t. The coordinate system chosen is shown in Fig. 1.
+The position vectors satisfy the following relations
+mc
+mc + mb
+mt
+, γ = (1 − αδ)
+rc = γr1 + δri , δ =
+mb + mt
+r = ri − αr1 , α =
+
+(1)
+(2)
+
+The exact post form T - matrix for this case is
+(−)
+
+(+)
+T = hχb (kb , r)Φb (ξb )χ(−)
+c (kc , rc )Φc (ξc )|Vbc (r1 )|Ψa (ξa , r1 , ri )i,
+
+3
+
+(3)
+
+c
+r1
+
+rc
+ri
+
+b
+
+r
+
+t
+Fig. 1. The three-body coordinate system. b, c and t represent the charged core,
+valence neutron and target respectively.
+
+where χ′ s are the distorted waves for relative motions of b and c with respect
+to t and the center of mass (c.m.) of b + t system respectively, and Φ′ s are the
+internal state wave functions of the concerned particles with internal coordinates ξ. Ψ(+)
+a (ξa , r1 , ri ) is the exact three-body scattering wave function of the
+projectile with a wave vector ka , with outgoing wave boundary condition. kb ,
+kc are Jacobi wave vectors of b and c respectively in the final channel of the
+reaction. Vbc (r1 ) is the interaction between b and c. The charged fragment b
+(−)
+interacts with the target by a point Coulomb interaction and hence χb (kb , r)
+is a Coulomb distorted wave with incoming wave boundary condition. For pure
+Coulomb breakup, the interaction between the target and uncharged fragment
+c is zero and hence χ(−)
+c (kc , rc ) is replaced by a plane wave.
+In the distorted wave Born approximation (DWBA), we write
+
+(+)
+Ψ(+)
+a (ξa , r1 , ri ) = Φa (ξa , r1 )χa (ka , ri ),
+
+(4)
+
+where Φa (ξa , r1 ) represents the bound state wave function of the projectile
+having its radial and angular parts as uℓ (r1 ) and Yℓm (r̂1 ) respectively, which
+are associated with the relative motion of b and c. χ(+)
+a (ka , ri ) is the Coulomb
+distorted scattering wave describing the relative motion of the c.m. of the
+projectile with respect to the target with outgoing wave boundary condition.
+The assumption inherent in Eq. (4) is that the breakup channels are very
+weakly coupled and hence this coupling needs to be treated only in the first
+order. The transition amplitude (written in the integral form) is now given by
+4
+
+T =
+
+Z Z Z
+
+(−)∗
+
+dξdr1dri χb
+
+(kb , r)Φ∗b (ξb )e−ikc .rc Φ∗c (ξc )Vbc (r1 )
+
+× Φa (ξa , r1 )χ(+)
+a (ka , ri ).
+
+(5)
+
+The integrals over the internal coordinates ξ give
+Z
+
+=
+
+dξΦ∗b (ξb )Φ∗c (ξc )Φa (ξa , r1 )
+X
+
+hℓmjc µc |jµihjb µb jµ|ja µa iiℓ uℓ (r1 )Yℓm (r̂1 ).
+
+(6)
+
+ℓmjµ
+
+In Eq. (6) ℓ is the relative motion angular momentum between b and c . This
+is coupled to spin of c and the resultant j is coupled to spin of (the inert core)
+b to get the spin of a (ja ). Using Eq. (6), the T -matrix can be written as
+T=
+
+X
+
+hℓmjc µc |jµihjbµb jµ|ja µa iiℓ ℓ̂βℓm (kb , kc ; ka ),
+
+(7)
+
+ℓmjµ
+
+where
+ℓ̂βℓm (kb , kc ; ka ) =
+
+Z Z
+
+(−)∗
+
+dr1 dri χb
+
+(kb , r)e−ikc .rc Vbc (r1 )
+
+(+)
+×φℓm
+a (r1 )χa (ka , ri ),
+
+with βℓm being the reduced T – matrix and ℓ̂ =
+φℓm
+a (r1 ) = uℓ (r1 )Yℓm (r̂1 ).
+
+(8)
+√
+
+2ℓ + 1. We have written
+
+It may be noted that the reduced amplitude βℓm involves a six dimensional
+integral which makes its evaluation quite complicated. The problem gets further acute due to the fact that the integrand involves three scattering waves
+which have oscillatory behavior asymptotically. Therefore, several approximate methods have been used in the literature to avoid the evaluation of six
+dimensional integrals. In the zero range approximation (ZRA) [36] one assumes
+Vbc (r1 )φℓm
+a (r1 ) = D0 δ(r1 ),
+
+(9)
+
+where D0 is the usual zero range constant. This approximation reduces the six
+dimensional integral in Eq.(8) to a three-dimensional one. The corresponding
+amplitude is written as
+(−)
+
+ZR
+β00
+= D0 hχb (kb , ri )eiδkc .ri |χ(+)
+a (ka , ri )i.
+
+(10)
+
+In Eq. (10), the details of the projectile structure enter in the reaction amplitude only as a multiplicative constant D0 . However, ZRA necessarily restricts
+5
+
+the relative motion between b and c in the projectile a to s – state only. Even
+for such cases, this approximation may not be satisfied for heavier projectiles
+and at higher beam energies [32].
+Baur and Trautmann (BT) [37] have proposed an alternative approximate
+scheme in which the projectile c.m. coordinate in the corresponding distorted
+wave in Eq. (8) is replaced by that of the core-target system, i.e. ri ≈ r. With
+this approximation the amplitude βℓm splits into two factors each involving a
+three dimensional integral
+(−)
+
+BT
+iδkc .r (+)
+ℓ̂βℓm
+= heikc .r1 |Vbc |φℓm
+|χa (ka , r)i.
+a (r1 )ihχb (kb , r)e
+
+(11)
+
+The first term, known as the form factor, depends on the structure of the
+projectile through its ground state wave function φℓm
+a (r1 ). The second term
+involves the dynamics of the reaction. This amplitude (which will be referred
+to as the BT amplitude), used originally to study the deuteron breakup at subCoulomb energies [37], was applied to the calculations of the Coulomb breakup
+of halo nuclei in [31]. This approximation, which allows the application of the
+theory to non-s – wave projectiles, may seem to be justified if the c.m of
+the b + c system is shifted towards b (which is indeed the case if mb ≫ mc ).
+However, the neglected piece of ri (αr1 ) occurs in association with the wave
+vector ka , whose magnitude may not be negligible for the reactions at the
+higher beam energies. Therefore, contribution coming to the amplitude from
+the neglected part of ri may still be substantial.
+An approximate way of taking into account the finite range effects in the
+post form DWBA theory is provided by the local momentum approximation
+[32,34]. The attractive feature of this approximation is that it leads to the
+factorization of the amplitude βℓm similar to that obtained in the BT case.
+We use this approximation to write the Coulomb distorted wave of particle b
+in the final channel as
+(−)
+
+(−)
+
+χb (kb , r) = e−iαK.r1 χb (kb , ri ).
+
+(12)
+
+Eq. (12) represents an exact Taylor series expansion about ri if K(= −i∇ri )
+is treated exactly. However, this is not done in the LMA scheme. Instead, the
+magnitude of the local momentum here is taken to be
+
+K(R) =
+
+s
+
+2m
+(E − V (R)),
+h̄2
+
+(13)
+
+where m is the reduced mass of the b − t system, E is the energy of particle b
+relative to the target in the c.m. system and V (R) is the Coulomb potential
+between b and the target at a distance R. Therefore, the local momentum K is
+6
+
+evaluated at some distance R, and its magnitude is held fixed for all the values
+of r. As is discussed in appendix A, the results of our calculations are almost
+independent of the choice of the direction the local momentum. Therefore, we
+have taken the directions of K and kb to be the same in all the calculations
+presented in this paper. It may be noted that in the calculations presented in
+Ref. [38], the LMA was applied to the Coulomb distorted wave of the projectile
+channel, where making a choice of the direction of the local momentum is some
+what complicated due to the fact that the directions of both the fragments in
+the final channel has to be brought into the consideration. Detailed discussion
+on the validity of the local momentum approximation is presented in appendix
+A.
+Substituting Eq. (12) into Eq. (8) we get the following factorized form of the
+amplitude
+F RDW BA
+ℓ̂βℓm
+= hei(γkc −αK).r1 |Vbc |φℓm
+a (r1 )i
+(−)
+
+× hχb (kb , ri )eiδkc .ri |χ(+)
+a (ka , ri )i.
+
+(14)
+
+Eq. (14) (which will be referred to as the FRDWBA amplitude in the following)
+looks like Eq (11) of the BT theory but with the very important difference
+that the form factor is now evaluated at the momentum transfer (γkc − αK),
+and not at the valence particle momentum kc . The two momenta could be
+quite different for cases of interest in this paper. The second term, involving
+the dynamics part of the reaction, is the same in both the cases. Therefore,
+the breakup amplitude obtained in BT approximation differs from that of
+FRDWBA by a factor
+BT
+βℓm
+
+heikc .r1 |Vbc |φℓm
+(r1 )i
+Fr = F RDW BA = i(βkc −αK).r1 a ℓm
+βℓm
+he
+|Vbc |φa (r1 )i
+
+(15)
+
+Recently, a theory of the Coulomb breakup has been developed within an
+adiabatic (AD) model [33,39], where one assumes that the excitation of the
+projectile is such that the relative energy (Ebc ) of the b − c system is much
+smaller than the total incident energy, which allows Ebc to be replaced by the
+constant separation energy of the fragments in the projectile ground state. It
+was shown in [39] that under these conditions the wave function Ψ(+)
+a (ξa , r1 , ri )
+has an exact solution as given below
+Ψ(+),AD
+(ξa , r1 , ri ) = Φa (ξa , r1 )eiαka .r1 χ(+)
+a
+a (ka , r)
+Substituting Ψ(+),AD
+for Ψ(+)
+in Eq. (3) leads to the reduced amplitude:
+a
+a
+7
+
+(16)
+
+(−)
+
+AD
+iδkc .r (+)
+ℓ̂βℓm
+= hei(kc −αka ).r1 |Vbc |φℓm
+|χa (ka , r)i.
+a (r1 )ihχb (kb , r)e
+
+(17)
+
+This amplitude differs from those of BT as well as FRDWBA only in the form
+factor part (first term), which is evaluated here at the momentum transfer
+(kc − αka ). Eq. (17) can also be obtained in the DWBA model by making a
+local momentum approximation to the Coulomb distorted wave in the initial
+channel of the reaction, and by evaluating the local momentum at R = ∞
+with its direction being the same as that of the projectile [38]. The adiabatic model does not make the weak coupling approximation of the DWBA.
+However, it necessarily requires one of the fragments (in this case c) to be
+chargeless. In contrast, the DWBA with the LMA could, in principle, be applied to cases where both the fragments b and c are charged [32] (of course the
+dynamical part of the amplitude can not be expressed in terms of the simple
+bremsstrahlung integral in this case as discussed below). While the effect of
+nuclear breakup in the adiabatic model description of elastic scattering of the
+loosely bound projectile has been calculated in Ref. [39–41], the nuclear part of
+the amplitude for breakup reactions is yet to be calculated within this model.
+At the same time, the nuclear breakup cross section has not been calculated
+within the FRDWBA theory also (although it is straightforward to do so).
+These calculations will be presented in a future publication.
+The triple differential cross section of the reaction is given by
+X
+d3 σ
+2π
+=
+ρ(Eb , Ωb , Ωc )
+|βℓm |2 ,
+dEb dΩb dΩc h̄va
+ℓm
+
+(18)
+
+where ρ(Eb , Ωb , Ωc ) is the appropriate [42] three-body phase space factor, given
+by
+
+ρ(Eb , Ωb , Ωc ) =
+
+h−6 mb mc mt pb pc
+mt + mc − mc kc .(kka2−kb )
+
+,
+
+(19)
+
+c
+
+with ka , kb and kc being evaluated in the appropriate frame of reference. va is
+the relative velocity of the projectile in the initial channel. p in Eq. (19) are
+the linear momenta which are related to wave numbers k by p = h̄k.
+Substituting the following expressions for the Coulomb distorted waves
+(−)∗
+
+(kb , ri ) = e−πηb /2 Γ(1 + iηb )e−ikb .ri 1 F1 (−iηb , 1, i(kb ri + kb .ri )),
+
+(20)
+
+−πηa /2
+χ(+)
+Γ(1 + iηa )eika .ri 1 F1 (−iηa , 1, i(ka ri − ka .ri ))
+a (ka , ri ) = e
+
+(21)
+
+χb
+
+in Eq. (14), one gets for the triple differential cross section
+8
+
+X
+d3 σ
+2π
+4π 2 ηa ηb
+2
+=
+ρ(Eb , Ωb , Ωc ) 2πη
+|I|
+4π
+|Zℓ |2 . (22)
+dEb dΩb dΩc
+h̄va
+(e b − 1)(e2πηa − 1)
+ℓ
+
+In Eqs. (20 – 22) η’s are the Coulomb parameters for the concerned particles.
+In Eq. (22) I is the Bremsstrahlung integral [43] which can be evaluated in a
+closed form:
+h
+
+ dD 
+
+dx
+
+2 F1 (−iηa , −iηb ; 1; D(0))
+
+I = −i B(0)
++
+
+ dB 
+
+dx
+
+x=0
+
+x=0
+
+(−ηa ηb )2 F1 (1 − iηa , 1 − iηb ; 2; D(0))
+i
+
+(23)
+
+where
+B(x) =
+
+D(x) =
+
+4π
+
+k
+
+i
+
+h
+
+(k 2 − 2k.ka − 2xka )iηa (k 2 − 2k.kb − 2xkb )iηb , (24)
+2(iηa +iη +1)
+b
+
+2k 2 (ka kb + ka .kb ) − 4(k.ka + xka )(k.kb + xkb )
+(k 2 − 2k.ka − 2xka )(k 2 − 2k.kb − 2xkb )
+
+(25)
+
+with k = ka − kb − δkc . Zℓ contains the projectile structure information and
+is given by
+Zℓ =
+
+Z
+
+dr1 r12 jℓ (k1 r1 )Vbc (r1 )uℓ (r1 ),
+
+(26)
+
+with k1 = |γkc − αK|.
+3
+
+Calculations and discussions
+
+Apart from the distance at which local momentum is calculated (which is
+taken to be 10 f m as discussed in appendix A) and its direction (described
+already in the previous section), the only other input to our calculations is the
+radial part of the projectile ground state wave function. The forms for this as
+chosen by us for the projectiles considered in this paper are discussed in the
+following.
+3.1 Calculations for reactions induced by 11 Be
+For the ground state of 11 Be, we have considered the following configurations
+: (a) a s – wave valence neutron coupled to 0+ 10 Be core (10 Be(0+ ) ⊗ 1s1/2 ν)
+9
+
+with a one-neutron separation energy (Sn−10 Be ) of 504 keV and a spectroscopic
+factor (SF) of 0.74 [44–46], (b) a d – wave valence neutron coupled to 2+
+10
+Be core (10 Be(2+ ) ⊗ 0d5/2 ν) with a binding energy of 3.872 MeV (which is
+the sum of energy of the excited 2+ core (3.368 MeV) and Sn−10 Be ) and (c)
+an admixture of these two configurations with spectroscopic factors of 0.74
+and 0.17 respectively [47]. In each case, the single particle wave function, is
+constructed by assuming the valence neutron-10 Be interaction to be of WoodsSaxon type whose depth is adjusted to reproduce the corresponding value of
+the binding energy with fixed values of the radius and diffuseness parameters
+(taken to be 1.15 f m and 0.5 f m respectively). For configuration (a), this
+gives a potential depth of 71.03 MeV, a root mean square (rms) radius for the
+valence neutron of 6.7 f m and a rms radius for 11 Be of 2.91 f m when the size
+of the 10 Be core is taken to be 2.28 f m [48]. In some cases we have also used
+a wave function for the s – state of 11 Be calculated within a dynamical core
+polarization (DCP) model [49].
+
+3.1.1 Energy distributions of the fragments
+3
+11
+
+10
+
+44 MeV/nucleon
+
+2
+
+1
+
+2
+
+d σ/dEndΩn (b/MeV.sr)
+
+Be + Au → n + Be + Au
+
+0
+
+0
+
+20
+
+40
+
+60
+
+80
+
+En (MeV)
+Fig. 2. Neutron energy distributions for the breakup of 11 Be on the Au target
+at the beam energy of 44 MeV/nucleon calculated within the FRDWBA using
+configurations (a) (dotted line), (b) (dashed line, plotted after multiplying the actual
+results by a factor of 1000) and (c) solid line for the ground state of 11 Be. The results
+obtained with configurations (a) and (c) are indistinguishable from each other. The
+experimental data are taken from [28].
+
+In Fig. 2, we present the results of our FRDWBA calculations for the double
+differential cross section (d2 σ/dEn dΩn ) as a function of the neutron energy
+10
+
+at the neutron angle of 1◦ , in the breakup of 11 Be on a gold target at the
+beam energy of 44 MeV/nucleon. The experimental data are taken from [28].
+The results obtained with configurations (a), (b) and (c) for the ground state
+of 11 Be are shown by dotted, dashed and full lines respectively. The results
+of configuration (b) are plotted after multiplying the actual numbers by a
+factor of 1000. The cross sections obtained with configurations (a) and (c)
+are indistinguishable from each other. Thus these two configurations produce
+almost identical results for the Coulomb dissociation of 11 Be. In the following,
+we have used configuration (a) for the ground state state of 11 Be in all the
+calculations.
+4
+
+11
+
+Be on Au
+
+FRDWBA
+
+2
+
+AD
+
+o
+
+θn = 1
+
+θn = 1
+
+FRDWBA
+
+AD
+
+o
+
+1
+0
+3
+2
+
+o
+
+o
+
+θn = 3.4
+
+θn = 3.4
+
+2
+
+d σ/dEndΩn (b/MeV.sr)
+
+3
+
+1
+0
+
+0
+
+20
+
+40
+
+60
+
+0
+
+20
+
+40
+
+60
+
+80
+
+En (MeV)
+Fig. 3. Neutron energy distributions for the breakup of 11 Be on Au at beam energies
+of 37 MeV/nucleon (dotted lines) and 44 MeV/nucleon (solid lines), calculated using
+configuration (a) with single particle wave functions within the FRDWBA and the
+AD models. The top half of the figure is for θn = 1◦ , while the bottom half is for
+θn = 3.4◦ . The experimental data are taken from [28].
+
+In Fig. 3, we present a comparison of our calculation with the data (taken
+from [28]) for the energy distribution of the neutron emitted in the same
+reaction as in Fig. 2 at two forward angles. Calculations performed within both
+FRDWBA and AD model are shown in this figure. The same configuration
+for the 11 Be ground state has been used in both the cases. The beam energy
+in this experiment [28] varies between 36.9 – 44.1 MeV/nucleon. To take into
+account this spread, we have performed calculations at both its upper (44
+MeV/nucleon) (solid line) and lower ends (37 MeV/nucleon) (dotted line).
+Although these data have large statistical errors, the calculations performed
+at 44 MeV/nucleon are in better agreement with the experimental values.
+Thus our calculations may serve to remove the uncertainty in the data in this
+11
+
+regard. It should also be noted that the AD model calculations over-predict
+the experimental cross sections in the peak region.
+1.5
+11
+
+10
+
+Be + Au → Be + n + Au
+
+1
+
+|Fr|
+
+2
+
+0.5
+
+0
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+Ea (MeV/nucleon)
+Fig. 4. Modulus square of the ratio Fr defined by Eq. (15) as a function of the beam
+energy for the same reaction as in Fig. 2 corresponding to forward emission angles
+of the breakup fragments as discussed in the text.
+
+As discussed earlier, the cross sections obtained in the BT theory differs from
+that of the FRDWBA by the modulus square of the factor Fr as defined by
+Eq. (15). In fig. 4, we have shown the beam energy dependence of |Fr |2 for
+the same reaction as in Fig. 2, for a set of forward angles of the outgoing
+fragments (θb = 1◦ , θc = 1◦ and φc = 1◦ ). We can see that this quantity is
+close to unity only at the sub-Coulomb beam energies (of course at higher
+beam energies it crosses twice the line representing the value 1). Therefore,
+the BT and FRDWBA calculations are expected to produce similar results at
+very low incident energies. Depending upon the beam energy, the BT results
+can be larger or smaller than those of the FRDWBA.
+A comparison of the results of the FRDWBA (solid line) and the BT (dotted
+line) calculations for the same reaction as in Fig. 2 is presented in Fig. 5.
+The bombarding energy in this case is 44 MeV/nucleon. We can see that the
+BT results are larger than those of the FRDWBA in almost entire region of
+neutron energies. This is to be expected from the results shown in Fig. 4,
+where the quantity |Fr |2 is larger than unity at this beam energy. It may be
+noted that the FRDWBA results provide a reasonable good description of the
+data, particularly in the peak region while BT calculations overestimate them.
+In Fig. 6, we show the energy distributions of the charged fragment 10 Be, cal12
+
+5
+11
+
+10
+
+2
+
+d σ/dEndΩn (b/MeV.sr)
+
+Be + Au → n + Be + Au
+
+4
+
+44 MeV/nucleon
+3
+
+2
+
+1
+
+0
+
+0
+
+20
+
+40
+
+60
+
+80
+
+En (MeV)
+Fig. 5. The energy distribution of the neutrons observed in the breakup of 11 Be on
+the Au target at the beam energy of 44 MeV/nucleon at the neutron angle of 1◦ ,
+calculated within the FRDWBA (solid line) and BT (dashed line) theories.
+
+culated within the FRDWBA (upper part) and the AD model (lower part) for
+the breakup of 11 Be on the Au target at the beam energy of 42 MeV/nucleon
+at three angles of 1◦ , 2◦ and 3◦ . A noteworthy feature of these results is that
+the peak position in both the calculations is very close to the energy corresponding to the beam velocity. This suggests that the charged fragment gets
+almost no post acceleration in the final channel. This feature of the breakup
+of halo nuclei (which is in contrast to the case of the breakup of stable isotopes [30]), was first noted in Ref. [31], and was corroborated later on by the
+authors of Refs. [25,26,28,50]. The reason for not observing the post acceleration effects, as put forward by authors of Ref. [31], is that due to their very
+small binding energies the halo nuclei break up far away from the distance
+of closest approach, which reduces greatly the effect of Coulomb repulsion on
+the charged outgoing fragment. This argument has received support from a
+recent calculation of the Coulomb dissociation potential of the deuteron which
+is shown [51] to have a considerably large value even outside the charge density of the target nucleus. A separate reason for not observing this effect has
+been put forward by the authors of Ref. [28], according to which these effects
+are small as the collision time is much less than the characteristic time for the
+disintegration of the halo.
+However, these quasiclassical arguments have been questioned by the authors
+of Ref. [27,52]. Esbensen, Bertsch and Bertulani [52], who include the higher
+order processes in the Coulomb dissociation of halo nuclei 11 Li and 11 Be by
+13
+
+15000
+
+11
+
+10
+
+Be + Au→ Be + n + Au
+
+2
+
+d σ/dEbdΩb (mb/MeV.sr)
+
+10000
+
+42 MeV/nucleon
+
+5000
+
+0
+
+10000
+
+5000
+
+0
+400
+
+410
+
+420
+
+430
+
+440
+
+Eb (MeV)
+Fig. 6. Energy distribution of the 10 Be fragment in the breakup of 11 Be on Au at
+42 MeV/nucleon beam energy corresponding to the 10 Be angles of 1◦ (solid line),
+2◦ (dotted line) and 3◦ (dashed line). The FRDWBA and adiabatic model results
+are shown in the upper and lower parts of the figure respectively.
+
+solving the three-dimensional time-dependent Schrödinger equation, and find
+a magnitude for the post acceleration effect which is quite appreciable for the
+9
+Li fragment in the breakup of 11 Li and relatively somewhat smaller for the
+10
+Be fragment in the breakup of 11 Be. In the semiclassical calculations of Baur,
+Bertulani and Kalassa [53], where breakup is assumed to take place at some
+classical distance, it is predicted that post acceleration effects should manifest
+itself in the increase of the average momentum of the charged fragment with
+the scattering angle. Indeed, the earlier measurements of Nakamura et al. [9]
+is consistent with this observation.
+In a recent experiment [54], the momentum of the 10 Be core from the breakup
+of 11 Be has been measured with sufficient precision to verify the previously reported post acceleration effect. We have made a comparison of our FRDWBA
+calculations with this data in Fig. 7, where we show the calculated and experP 2σ
+P
+2σ
+/ dpdb dΩ
+) as a function
+imental 10 Be average momenta (defined as pb dpdb dΩ
+b
+b
+of laboratory angle. In the semiclassical picture of Ref. [53], the impact parameter decreases with the increase of the scattering angle, thereby making the
+Coulomb repulsion effects on the charged fragment stronger. Therefore, the
+post acceleration should show up in the increase of this average momentum
+with the increase of the scattering angle. However, in both the experimental
+data of [54] as well as our calculations no such increase is observed. Thus,
+neither the data of Ref. [54] nor our calculations support the results found in
+Ref. [9]. Therefore, the semiclassical picture presented in [53] should be viewed
+14
+
+2805
+
+2800
+
+10
+
+Be avg. momt. (MeV/c)
+
+2810
+
+2795
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Lab ang. (θb) (deg)
+Fig. 7. Average momenta of the 10 Be fragment in the breakup of 11 Be on Au at 42
+MeV/nucleon beam energy as a function of its detection angle. The data are taken
+from [54].
+
+with caution.
+
+3.1.2 Neutron Angular Distribution
+The measured neutron angular distribution in the exclusive 11 Be + A → 10 Be
++ n +A reaction below the grazing angle is very narrow and is shown to be
+[38,55] dominated by the Coulomb breakup process. This reflects the narrow
+width of the transverse momentum distribution of the valence neutron in the
+ground state of 11 Be, which is consistent with the presence of a neutron halo
+structure in 11 Be. In the top half of Fig. 8, we compare the calculated and
+measured exclusive neutron angular distribution dσ/dΩn as a function of the
+neutron angle θn for the above reaction on a Au target at the beam energy
+of 41 MeV/nucleon. Calculations (where integrations over the core fragment
+energy is done in the range of 390 to 430 MeV, which contributes most to the
+cross section) performed within the FRDWBA (solid line) and the AD model
+(dotted line) using the same configuration for the 11 Be ground state are shown
+in this figure. Also shown (dashed line) here is the FRDWBA calculation performed with the 11 Be ground state wave function obtained in the DCP model.
+We note that while the FRDWBA and the AD model results agree with each
+other well below 12◦ , the difference between the two models starts becoming
+prominent as the angle increases beyond this value, with the latter developing
+a dip around 25◦ . At small neutron angles, the FRDWBA calculation done
+with the DCP wave function overestimates somewhat the measured neutron
+15
+
+10
+
+6
+
+dσ/dΩn (mb/sr)
+
+11
+
+10
+10
+10
+
+10
+
+10
+
+Be + Au → n + Be + Au
+
+4
+
+41 MeV/nucleon
+2
+
+0
+
+−2
+
+80
+
+G
+40
+0
+
+0
+
+10
+
+20
+
+θn (deg.)
+
+30
+
+40
+
+Fig. 8. The calculated neutron angular distributions for the breakup of 11 Be on a Au
+target at 41 MeV/nucleon beam energy (upper half). The solid and the dotted lines
+show the results of the calculation performed with the FRDWBA and AD model
+with configuration (a) using single particle wave functions, while the dashed line
+corresponds to the FRDWBA calculation done with the DCP wave function for the
+ground state of 11 Be as discussed in the text. The data are taken from [28]. In the
+lower half, the quantity G (see text) has been plotted against θn . The solid line and
+the dashed lines show the results for the FRDWBA and the AD cases respectively.
+
+angular distribution.
+To understand the origin of the dip in the AD model calculations
+of the neutron
+R
+angular distribution, we have plotted the quantity G(= dθb sin θb |Zℓ |2 ) as a
+function of θn in the lower half of Fig. 8 for both the FRDWBA (solid line)
+and the AD (dashed line) cases. The energy of fragment b corresponds to the
+beam velocity. We can see that in the AD case G becomes very small around
+25◦ , which corresponds to a node in its form factor at the momentum transfer
+related to this angle.
+
+3.1.3 Relative energy spectrum of fragments
+The relative energy spectrum for the breakup of 11 Be on a Pb target at 72
+MeV/nucleon is shown in Fig. 9. The top half shows the results obtained with
+the FRDWBA (solid line) and the AD model (dotted line) using configuration
+(a) with the single particle wave function for the 11 Be ground state, while the
+bottom half depicts the FRDWBA results obtained with the single particle
+and DCP wave functions. We see that, while both the FRDWBA and the
+16
+
+11
+
+dσ/dErel (b/MeV)
+
+2
+
+10
+
+Be + Pb → n + Be + Pb
+
+72 MeV/nucleon
+1
+
+0
+3
+2
+1
+0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+Erel (MeV)
+Fig. 9. Relative energy spectra for the Coulomb breakup of 11 Be on a Pb target at
+72 MeV/nucleon beam energy. The top half of the figure shows the spectra obtained
+with a single particle wave function, using the FRDWBA (solid line), the AD model
+(dotted line) and the BT approximation (dashed line). The bottom half shows the
+results of FRDWBA calculations using single particle (solid line) and DCP (dotted
+line) wave functions. The data are taken from [9].
+
+AD model calculations reproduce the peak value of the data [9] well, the
+FRDWBA calculations done with the DCP wave function overestimate it. On
+the other hand, none of the calculations is able to explain the data at higher
+relative energies. This can be attributed to the fact that nuclear breakup
+effects, which can contribute substantially [56] at higher relative energies (for
+Erel > 0.6 MeV), are not included in these calculations. Of course, the authors
+of Ref. [9] claim that their data have been corrected for these contributions.
+However, the procedure adopted by them for this purpose is inadequate. They
+obtained the nuclear breakup contribution on the Pb target, by scaling the
+cross sections measured on a carbon target. This scaling procedure is unlikely
+to be accurate for reactions induced by halo nuclei due to the presence of
+a long tail in their ground state. In a full quantum mechanical theory, both
+Coulomb and nuclear breakup contributions should be calculated on the same
+footing and corresponding amplitudes should be added coherently to get the
+cross sections.
+Calculations done using the BT theory (dashed line in the upper part of Fig. 9)
+underestimates the data considerably. This difference between the FRDWBA
+and the BT results can again be traced to the behavior of |Fr |2 in Fig. 4, which
+is smaller than unity at the beam energy of 72 MeV/nucleon of this reaction.
+17
+
+We would like to remark that our post form FRDWBA results for the pure
+Coulomb breakup contribution to the relative energy spectra for the 11 Be
+agrees quite well with a recent calculation of the breakup reaction in a nonperturbative approach where the time evolution of the projectile is calculated
+by solving a time-dependent Schrödinger equation [57]. On the other hand,
+similar perturbative calculations performed previously [26] overestimate the
+data in the peak region.
+3.1.4 Momentum distribution of the core
+The neutron halo structure is reflected in the narrow width of the parallel
+momentum distribution (PMD) of the charged breakup fragments emitted
+in breakup reactions induced by the halo nuclei. This is because the PMD
+has been found to be least affected by the reaction mechanism [13–17] and
+therefore, a narrow PMD can be related to a long tail in the matter distribution
+in the coordinate space via Heisenberg’s uncertainty principle.
+600
+11
+
+10
+
+Be + U→ Be + X
+
+dσ/dpz (arb. units)
+
+400
+
+63 MeV/nucleon
+
+200
+0
+11
+
+10
+
+Be + Ta→ Be + X
+
+400
+
+63 MeV/nucleon
+
+200
+0
+−100
+
+0
+
+100
+
+pz (MeV/c)
+Fig. 10. Parallel momentum distributions of 10 Be in the breakup of 11 Be on U (top
+half) and Ta (bottom half) at 63 MeV/nucleon beam energy in the rest frame of
+the projectile. The same normalization has been used for both the FRDWBA (solid
+line) and the AD (dotted line) cases. The data are taken from [14].
+
+In Fig. 10 we present the PMD of the 10 Be fragment emitted in the breakup
+of 11 Be on U and Ta targets at 63 MeV/nucleon beam energy. Calculations
+performed within both the FRDWBA and AD model formalisms using the
+configuration (a) are presented in this figure. The calculated cross sections are
+normalized to match the peak of the data points (which are given in arbitrary
+18
+
+units) [14], the normalization constant being the same for both cases. The full
+width at half maximum ( FWHM) for the U and Ta targets are 44 MeV/c
+and 43 MeV/c respectively in both the FRDWBA and the AD cases. These
+agree well with the averaged experimental value of 43.6±1.1 MeV/c [14] and
+also with those calculated in [38]. The very narrow widths of the parallel
+momentum distributions signal the presence of a neutron halo structure in
+11
+Be.
+It may be noted that the calculations performed with configuration (c) gives
+results identical to that obtained with configuration (a). The PMD calculated
+with a pure d – wave configuration is too small in magnitude and too wide in
+width.
+
+3.1.5 Coulomb part of total one-neutron removal cross section
+For the breakup of 11 Be on a Au target at the beam energy of 41 MeV/nucleon,
+C
+the values of the pure Coulomb total one-neutron removal cross section (σ−n
+)
+are found to be 1.91 b and 1.94 b for the FRDWBA and the AD model
+respectively, using configuration (a) and the single particle wave function for
+C
+the ground state of 11 Be. The corresponding values of σ−n
+for the breakup of
+this projectile on the Pb target at the beam energy of 72 MeV/nucleon are
+1.25 b and 1.29 barn respectively. The experimental values for the total oneneutron removal cross section (σ−n ) for these two reactions are reported to be
+C
+2.5±0.5 b [28] and 1.8 ± 0.4 b [9] respectively. The difference between σ−n
+and
+the experimental value of σ−n can be attributed to the nuclear breakup effects.
+Incidentally, FRDWBA calculations performed with the DCP wave function
+for the 11 Be ground state leads to much larger values of 2.82 b and 1.76 b for
+C
+σ−n
+for the two cases respectively.
+
+3.2 Results for 19,15,17 C
+
+In this section,we shall compare results of our calculations with the available
+data on the breakup of the neutron rich carbon nuclei 19,15,17 C on heavier
+targets.
+There is a large uncertainty in the value of the last neutron separation energy
+in 19 C (Sn−18 C ) with quoted values varying between 160 – 530 keV [10,58]. It
+has recently been shown [59] that most of the available data on the Coulomb
+dissociation of 19 C can be satisfactorily explained within the adiabatic model
+of Coulomb breakup with the one-neutron separation energy of 530 keV. The
+ground state spin-parity of 19 C has been quoted as 1/2+ , 3/2+ and 5/2+ [60].
+The relativistic mean field (RMF) [61] as well as shell model calculations
+19
+
+Table 1
+Searched depths of the Woods-Saxon potential for given projectile configurations
+and binding energies (ǫ) with radius and diffuseness parameters of 1.5 f m and 0.5
+f m. The rms radius of the projectile is also shown for each case.
+
+Projectile
+
+19 C
+
+Projectile
+
+ǫ
+
+Vdepth
+
+Projectile rms
+
+configuration
+
+(MeV)
+
+(MeV)
+
+radius (f m)
+
+⊗ 1s1/2 ν
+
+0.530
+
+49.77
+
+3.19
+
+⊗ 0d5/2 ν
+
+0.530
+
+53.58
+
+2.95
+
+⊗ 1s1/2 ν
+
+0.160
+
+47.43
+
+3.66
+
+1.2181
+
+61.21
+
+2.83
+
+14 C (0+ )
+
+⊗ 1s1/2 ν
+⊗ 0d5/2 ν
+
+1.2181
+
+65.66
+
+2.67
+
+16 C (0+ )
+
+⊗ 1s1/2 ν
+
+0.729
+
+54.45
+
+3.03
+
+⊗ 0d5/2 ν
+
+0.729
+
+58.70
+
+2.81
+
+⊗ 1s1/2 ν
+
+2.5
+
+62.55
+
+2.79
+
+⊗ 0d5/2 ν
+
+2.5
+
+60.82
+
+2.86
+
+18 C (0+ )
+18 C (0+ )
+18 C (0+ )
+
+15 C
+
+17 C
+
+14 C (0+ )
+
+16 C (0+ )
+16 C (2+ )
+16 C (2+ )
+
+using Warburton-Brown effective interaction [62] predict the spin-parity of
+the ground state of this nucleus to be 1/2+ .
+We use single particle wave functions which are constructed by assuming a
+Woods-Saxon interaction between the valence neutron and the charged core
+whose depth (for fixed values of the radius and diffuseness parameters) is adjusted to reproduce the binding energies of the nuclei under investigation. The
+valence neutron binding energies, searched potential depths (Vdepth ) and calculated rms radii of the projectile with different configurations for the ground
+state for each isotope are summarized in Table 1.
+In this work, we consider two situations: (i) different binding energies (530
+keV and 160 keV) with the same configuration for 19 C ground state (18 C
+(0+ ) ⊗ 1s1/2 ν), and (ii) different configurations (18 C (0+ ) ⊗ 1s1/2 ν and 18 C
+(0+ ) ⊗ 0d5/2 ν) for 19 C ground state with the same binding energy (530 keV).
+We have considered single particle wave functions in all the cases, except for
+the 160 keV case where we have additionally considered a DCP wave function
+for the s – state [49]. It may be noted that for all the single particle wave
+functions, we have used a spectroscopic factor of 1.0.
+20
+
+60
+19
+
+18
+
+C + Ta → C + X
+
+dσ/dpz (arb. units)
+
+40
+
+88 MeV/nucleon
+
+20
+0
+40
+20
+0
+7250
+
+7300
+
+7350
+
+7400
+
+pz (MeV/c)
+Fig. 11. FRDWBA results for the parallel momentum distribution of 18 C in the
+breakup of 19 C on Ta target at the beam energy of 88 MeV/nucleon. The top half
+shows the results obtained with the configuration (18 C (0+ ) ⊗ 1s1/2 ν) and single
+particle wave function for the ground state of 19 C with one-neutron separation
+energies of 530 keV (solid line), 160 keV (dashed line). The dotted line shows the
+result obtained with a DCP wave function with a one-neutron separation energy
+of 160 keV. The bottom half shows the result obtained with the configurations
+(18 C(0+ ) ⊗ 1s1/2 ν) (solid) and (18 C(0+ ) ⊗ 0d5/2 ν) (dashed), with the same value of
+the one-neutron separation energy (530 keV). The data have been taken from [15].
+
+In Fig. 11, we present the PMD (calculated within the FRDWBA formalism)
+of the 18 C fragment in the breakup of 19 C on a Ta target at the beam energy
+of 88 MeV/nucleon. We have normalized the peaks of the calculated PMDs to
+that of the data (given in arbitrary units) [15] (this also involves coinciding
+the position of maxima of the calculated and experimental PMDs). As can be
+seen from the upper part of this figure, the experimental data clearly favor
+Sn−18 C = 0.53 MeV with the s – wave n-18 C relative motion in the ground
+state of 19 C. The results obtained with the s – wave configuration within the
+simple potential and DCP models (with the same value of Sn−18 C ) are similar
+to each other.
+In the lower part of Fig. 11, we have shown the results obtained with the d
+– wave relative motion for this system (with Sn−18 C = 0.53 MeV) and have
+compared it with that obtained with a s – wave relative motion with the same
+value of the binding energy. As can be seen, the FWHM of the experimental
+PMD is grossly over-estimated by the d – wave configuration. The calculated
+FWHM with the s – state configuration (with Sn−18 C = 530 keV) is 40 MeV/c,
+which is in excellent agreement with the experimental value of 41±3 MeV/c
+21
+
+[15]. Thus these data favor a configuration 18 C(0+ ) ⊗1s1/2 , with a one-neutron
+separation energy of 0.530 MeV for the ground state of 19 C. These results are
+in agreement with those of Ref. [59]. The narrow width of the PMD provides
+support to the presence of a one-neutron halo structure in 19 C.
+10
+19
+
+18
+
+C + Ta → C + X
+
+dσ/dpz (mb.c/MeV)
+
+8
+
+914 MeV/nucleon
+6
+
+4
+
+2
+
+0
+−300
+
+−100
+
+100
+
+300
+
+pz (MeV/c)
+Fig. 12. Parallel momentum distribution of 18 C fragment in the Coulomb breakup
+of 19 C on Ta target at the beam energy of 914 MeV/nucleon.
+
+The width of the PMD is not expected to change with beam energy [5]. To
+see this, we have calculated the PMD of 18 C in the Coulomb breakup of 19 C
+on a heavy target (Ta) at the high beam energy of 914 MeV/nucleon. The
+corresponding results are shown in Fig. 12. The FWHM of the distribution
+in this case is 42 MeV/c which is similar to that obtained above at a lower
+beam energy. However, FWHM of the PMD of the 18 C fragment measured
+in the breakup of 19 C on a carbon target at the same beam energy, has been
+found [18] to be of 69±4 MeV/c. It would be interesting, therefore, to repeat
+measurement at this energy with a heavier target to check our observation.
+In Fig. 13, we have shown the results of our FRDWBA calculations for the
+the relative energy spectrum for the breakup of 19 C on Pb at 67 MeV/nucleon
+beam energy. The experimental data is taken from [10]. The angular integration for the 19 C center of mass is done up to the grazing angle of 2.5◦ . It
+can be seen that in this case also the best agreement with the data (near the
+peak position) is obtained with the s – wave configuration with Sn−18 C = 0.53
+MeV. Calculations done with the d – state configuration for both 530 keV and
+160 keV one-neutron separation energy fails to reproduce the data. At the
+same time, those performed with the s – state configuration but with Sn−18 C
+= 0.16 MeV overestimates the data by at least an order of magnitude and
+22
+
+1.5
+19
+
+18
+
+dσ/dErel (b/MeV)
+
+C + Pb → C + n +Pb
+
+67 MeV/nucleon
+
+1.0
+
+0.5
+
+0.0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+Erel (MeV)
+Fig. 13. Calculated relative energy spectra for the Coulomb breakup of 19 C on Pb at
+67 MeV/nucleon. The d – state results, for binding energies 160 keV (long dashed)
+and 530 keV (dotted), are multiplied by 10. The 160 keV s – state result (short
+dashed) is multiplied by 0.086. The 530 keV s – state result is represented by the
+solid line. The data have been taken from [10].
+
+also fail to reproduce the its peak position. However, as in the case of 11 Be,
+our calculations underestimate the relative energy spectrum for larger values
+of relative energies. In this case also, the proper consideration of the nuclear
+breakup effects is necessary to explain the data in this region. We would also
+like to remark that the correction for these effects made in the data [10] by
+scaling the cross sections for the breakup of 19 C on a carbon target is unlikely
+to be accurate due to the same reasons as stated in case of 11 Be.
+C
+Table 2 summarizes the FRDWBA results of σ−n
+for the breakup of 19 C on
+different heavy targets at several beam energies. The experimental value of σ−n
+for the breakup of 19 C on Ta at the beam energy of 88 MeV/nucleon is 1.1±0.4
+b [15]. It is seen from this table that only with the s – wave configuration of
+the 19 C ground state with Sn−18 C = 0.53 MeV, the calculated cross sections
+come closer to the experimental data. In this context it must be kept in mind
+that σ−n also include contributions from the nuclear breakup effects, which is
+not included in our present calculations.
+
+We next consider the breakup of 15 C which has a relatively larger value for the
+one-neutron separation energy (1.2181 MeV) and a ground state spin-parity
+of 1/2+ [15]. This can be obtained from two configurations: a 1s1/2 neutron
+coupled to a 14 C (0+ ) core and a 0d5/2 neutron coupled to a 14 C (0+ ) core.
+One could also considered a 14 C (2+ ) core and 0d5/2 neutron coupling to get
+23
+
+Table 2
+C for 19 C. ǫ is the one-neutron separation energy (MeV).
+Calculated values of σ−n
+The beam energy (Ebeam ) is in MeV/nucleon. The single particle wave functions
+are used in all the cases.
+
+Projectile
+
+ǫ
+
+Ebeam
+
+SF
+
++ target
+
+C (s – state) (mb)
+σ−n
+
+C (d – state) (mb)
+σ−n
+
+FRDWBA
+
+AD
+
+FRDWBA
+
+AD
+
+62.5
+
+66.8
+
+19 C + Ta
+
+0.530
+
+88
+
+1
+
+780.4
+
+780.9
+
+19 C + Ta
+
+0.160
+
+88
+
+1
+
+4029.4
+
+4072.0
+
+19 C + Pb
+
+0.530
+
+67
+
+1
+
+744.96
+
+25.7
+
+19 C + Pb
+
+0.160
+
+67
+
+1
+
+4246.0
+
+84.9
+
+a 1/2+ ground state for 15 C, but it would raise the one-neutron separation
+energy to about 7.01 MeV, which is highly unfavorable for the formation of a
+halo. We, therefore, do not consider this configuration in our calculations.
+800
+
+dσ/dpz (arb. units)
+
+15
+
+600
+
+14
+
+C + Ta → C + X
+
+84 MeV/nucleon
+
+400
+
+200
+
+0
+5400
+
+5500
+
+5600
+
+5700
+
+5800
+
+pz (MeV/c)
+Fig. 14. Parallel momentum distributions of 14 C in the breakup of 15 C on Ta at 84
+MeV/nucleon. The solid line and dotted lines show the results obtained with the
+configurations 14 C (0+ ) ⊗ 1s1/2 ν the 14 C (0+ ) ⊗ 0d5/2 ν respectively for the ground
+state of the projectile. The data have been taken from [15].
+
+In Fig. 14, we present the results of our FRDWBA calculations for the PMD
+of the 14 C fragment in the breakup of 15 C on the Ta target at the beam
+energy of 84 MeV/nucleon. The experimental data is taken from [15]. As
+before, our calculations are normalized to the peak of the data. The s – state
+24
+
+Table 3
+FWHMs from the parallel momentum distribution of 16 C for different ground state
+configurations of 17 C and one-neutron separation energies (ǫ) in the breakup of 17 C
+on Tai at 84 MeV/nucleon beam energy.
+
+Projectile
+
+ǫ
+
+F W HM
+
+configuration
+
+(MeV)
+
+(MeV/c)
+
+⊗ 1s1/2 ν
+
+0.729
+
+51
+
+⊗ 0d5/2 ν
+
+0.729
+
+114
+
+⊗ 1s1/2 ν
+
+2.5
+
+82
+
+⊗ 0d5/2 ν
+
+2.5
+
+185
+
+16 C (0+ )
+16 C (0+ )
+16 C (2+ )
+16 C (2+ )
+
+configuration for the ground state of 15 C gives a FWHM of 62 MeV/c, while
+with the d – state configuration it comes out to be 140 MeV/c. Therefore,
+the experimental value for the FWHM (67±1 MeV/c) [15] favors the former
+configuration. Hence our results provide support to the existence of a halo
+structure in 15 C. This nucleus provides an example of the one-halo system
+with the largest one-neutron separation energy, known so far.
+17
+
+C has a lower one-neutron separation energy (729 keV) as compared to that
+of 15 C. It would be interesting to see if it also has a halo structure, which seems
+probable if one considers only the binding energies. The quoted ground state
+spin-parities for this nucleus are 1/2+ , 3/2+ and 5/2+ [60]. RMF calculations
+[61] predict it to have a value of 3/2+ . We consider four possible ground
+state configurations for this nucleus and calculate the parallel momentum
+distributions of the 16 C fragment in the breakup of 17 C on a Ta target at 84
+MeV/nucleon beam energy within our FRDWBA formalism. The FWHMs of
+the PMD obtained with different configurations are listed in Table 3.
+It is evident from this table that the s – state configurations predict a narrow
+width for the PMD, providing support to the existence of a halo structure
+in this nucleus. The experimental data [15], however, is available only for
+the breakup of 17 C on a light target (Be) at 84 MeV/nucleon, which gives a
+FWHM of 145±5 MeV/c. Since the PMD is mostly unaffected by the reaction
+mechanism [63], it is quite likely that the experimental FWHM will be the
+same also for the breakup of this nucleus on a heavier target. Therefore, the
+results shown in Table 3 seem to provide support to a d – wave configuration
+for the ground state of 17 C [64]. Hence, the existence of a one-neutron halo
+structure is quite improbable in 17 C. However, to arrive at a more definite
+conclusion in this regard the data on the breakup of 17 C on a heavy target is
+quite desirable.
+25
+
+4
+
+Summary and conclusions
+
+In this paper, we have performed calculations for the Coulomb breakup of
+the neutron rich nuclei 11 Be and 15,17,19 C, which have a single valence neutron loosely bound with a stable core. We used a theory developed within the
+framework of the post form distorted wave Born approximation where finite
+range effects have been included approximately by using a local momentum
+approximation on the Coulomb distorted wave of the outgoing charged fragment. Within this method, the breakup amplitude is expressed as a product of
+factors describing separately the projectile structure and the dynamics of the
+reaction. This factored form of the breakup amplitude can also be obtained
+within an adiabatic model which makes the approximation that the strongly
+excited core-valence particle relative energies in the Coulomb breakup are
+small. However, unlike the post form DWBA, the adiabatic model does not
+use the weak coupling approximation to describe the center of mass motion
+of the fragments with respect to the target.
+Both these theories allow the use of realistic wave functions for the ground
+state of the projectile. Furthermore, unlike the semiclassical and quantum
+mechanical theories using the zero range approximation which can be applied
+only to s – wave projectiles, these methods are applicable to projectiles with
+any relative orbital angular momentum structure between their fragments.
+This provides an opportunity to probe the structure of the ground state of the
+projectile, by comparing the predictions of these theories with the data for
+the breakup observable. We have calculated, the energy, angular and parallel
+momentum distributions of the fragments emitted in the breakup reaction of
+these nuclei using different configurations for their ground state, By making
+comparisons of the calculated cross sections with the available experimental
+data an effort has been made to put constraints on their ground state structure.
+All the observable calculated by us are sensitive to the ground state configuration of the projectile. We find that for 11 Be, a s – wave configuration
+(10 Be(0+ ) ⊗ 1s1/2 ν), with a spectroscopic factor of 0.74 for its ground state
+provides best agreement with the experimental data in all the cases. In our
+study, it is not possible to distinguish between this configuration and the one
+proposed recently where there is an admixture of the s – wave and a d – wave
+configuration, (10 Be(2+ ) ⊗ 0d5/2 ν), with spectroscopic factors of 0.74 and 0.17
+respectively for the ground state of this nucleus. For almost all the observables,
+there is a general agreement between the FRDWBA and adiabatic model results even in the absolute magnitude in the region where Coulomb breakup
+is expected to be dominant mode (ie. below the grazing angle). This provides
+additional support to our choice of the parameters associated with the local
+momentum in our FRDWBA calculations. It may be noted that the approximation of Baur and Trautmann, which also leads to the factored form for the
+26
+
+breakup amplitude, gives results which are very different from those obtained
+with the FRDWBA and AD model formalisms. The BT approximation fails
+to explain the data in most of the cases studied here.
+In the case of neutron angular distributions for the breakup of 11 Be on the gold
+target at the beam energy of 41 MeV, there is a dip around 25◦ in the adiabatic
+model calculations, which is not seen in the corresponding FRDWBA results.
+It may be noted that this region was excluded in the results shown in Ref. [38].
+This dip can be traced back to the fact that the form factor in the adiabatic
+model has a node at the momentum transfer corresponding to this angle. In
+any case, this region of the angular distribution is expected to get substantial
+contribution from the nuclear breakup effects (and also from the Coulombnuclear interference terms). Therefore, full implication of this dip can become
+clear only after nuclear breakup effects are included in these models.
+For the 19 C case, the results for the PMD of 18 C and the relative energy
+spectrum of the n + 18 C system show that the most probable ground state
+configuration of 19 C is (18 C (0+ )⊗1s1/2 ν) with a one-neutron separation energy
+of 530 keV and a spectroscopic factor of 1. Our FRDWBA calculations agree
+well with the experimental data of the MSU group [15]. By performing the
+calculations at GSI energies we note that the width of the PMD is independent
+of the beam energy. It would be interesting to perform the GSI experiment
+with a heavier target to check this prediction. Our FRDWBA results on 19 C
+are in excellent agreement with those of the adiabatic model [59].
+We find that the most probable configuration for 15 C is a s – wave valence
+neutron coupled to the 14 C core and that for 17 C is a d – wave valence neutron
+coupled to a 16 C core. Both the experimental and the calculated FWHM of
+the PMD for the 14 C core in the breakup of 15 C are small and they agree
+well with each other. This provides support to the existence of a one-neutron
+halo structure in 15 C. On the other hand, in the case of 17 C the value of
+this quantity for the 16 C core is probably closer to that of a stable isotope.
+Therefore the existence of a halo structure in 17 C appears to be unlikely.
+Interestingly the one-neutron separation energies of 15 C and 17 C are 1.2181
+and 0.729 MeV respectively. So the binding energy of the valence neutron as
+well as its configuration with respect to the core together decide whether a
+nucleus has halo properties or not.
+
+5
+
+ACKNOWLEDGMENTS
+
+The authors are thankful to Horst Lenske for providing them the wave functions of the dynamical polarization model for various projectiles. One of the
+authors (RS) wishes to acknowledge several fruitful discussions with Dr. M.
+27
+
+A. Nagarajan on the local momentum approximation method.
+
+A
+
+Validity of the local momentum approximation
+
+η(r)
+
+19
+
+11
+
+C
+
+10
+
+5
+
+0
+
+10
+
+0
+
+10
+
+20
+
+r (fm)
+
+30
+
+−1
+
+K(r) (fm )
+
+0.4
+
+0
+
+0
+
+10
+
+20
+
+r (fm)
+
+30
+
+0.8
+
+0.3
+
+0.6
+
+19
+
+C
+
+0.2
+
+0.4
+
+0.1
+
+0.2
+
+0
+
+Be
+
+4
+
+0
+
+20 40 60 80 100
+
+r (fm)
+
+0
+
+11
+
+Be
+
+0
+
+20 40 60 80 100
+
+r (fm)
+
+Fig. A.1. variation of η(r) (upper half) and K(r) (lower half) with r.
+
+As discussed in [32], a condition for the validity of the local momentum approximation is that the quantity
+1
+η(r) = K(r)|dK(r)/dr|−1
+2
+
+(A.1)
+
+evaluated at a representative distance R should be much larger than R bc , which
+is of the order of the range of the interaction Vbc . To check this, we show in
+Fig. A.1, η(r) (upper half) and K(r) (the magnitude of the local momentum)
+(lower half) as a function of r, for the breakup reactions 19 C + Ta → 18 C +
+n + Ta at the beam energy of 88 MeV/nucleon (left side) and 11 Be + Au →
+10
+Be + n + Au at the beam energy of 41 MeV/nucleon (right side). We see
+that for r > 8 f m, η(r) is several orders of magnitude larger than rms radii
+of the halo in both the cases. Therefore, the above condition is well satisfied.
+From the lower half of Fig. A.1, we note that the value of K(r) remains
+constant for distances larger than 10 f m. Due to the peripheral nature of
+the breakup reaction, this region contributes maximum to the cross section.
+Therefore, our choice of a constant magnitude for the local momentum evaluated at 10 f m is well justified. In fact, we noted that as R is increased from
+28
+
+4
+11
+
+dσ/dErel (b/MeV)
+
+10
+
+Be + Au → n + Be + Au
+
+3
+
+44 MeV/nucleon
+
+2
+1
+0
+
+2
+
+d σ/dEndΩn (b/MeV.sr)
+
+5 to 10 f m the calculated cross sections vary by at the most 10%, and with
+a further increase the variation is less than 1%, in all the cases considered in
+this paper.
+
+(A)
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+En (MeV)
+
+0.8
+
+19
+
+18
+
+C + Pb → C + n + Pb
+67 MeV/nucleon
+
+0.4
+
+(B)
+
+0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+Erel (MeV)
+Fig. A.2. (A) The energy distributions of neutron from the breakup of 11 Be on Au
+at the beam energy of 41 MeV/nucleon and (B) relative energy spectra for the
+dissociation of 19 C on Pb at 67 MeV/nucleon for choices d1 (solid line), d2 (dashed
+line) and d3 (dotted line) for the direction of the local momentum, as discussed in
+the text. For the relative energy spectra the results obtained in three cases are not
+distinguishable from each other.
+
+In the application of the LMA in the description of the heavy ion induced
+transfer reactions, it was noted [35] that the calculated cross sections were
+more or less unaffected by the choice of the direction of the local momentum.
+However, in Ref. [38], some dependence of the breakup cross sections on this
+direction has been reported. To study the sensitivity of our FRDWBA results
+on the direction of K, we have performed calculations for three cases where
+we take the angles of the local momentum (d1 ) parallel to those of kb , (d2 )
+parallel to the direction corresponding to the half of the angles of kb and (d3 )
+parallel to the beam direction (zero angles).
+C
+In Table A.1, we show the results for σ−n
+for the breakup of 11 Be and 19 C (on
+targets and at beam energies as indicated therein), for these three choices of
+the direction of K. We see that between the cases d1 to d3 , the variation in
+C
+the values of σ−n
+is less than 5% for 11 Be, and less than 2% for 19 C. In part
+A of Fig. A.2, we show the energy distribution of the neutron for the same
+
+29
+
+Table A.1
+Calculated value of the Coulomb part of one-neutron removal cross section for 11 Be
+for three different directions of local momentum (d1 ) (d2 ) and (d3 ).
+
+Projectile
+
+ǫ
+
+Ebeam
+
++ target
+
+(MeV)
+
+(MeV/nucleon)
+
+SF
+
+C
+σ−n
+
+C
+σ−n
+
+C
+σ−n
+
+d1
+
+d2
+
+d3
+
+(mb)
+
+(mb)
+
+(mb)
+
+11 Be + Au
+
+0.504
+
+41
+
+0.74
+
+1906
+
+1973
+
+1979
+
+19 C + Pb
+
+0.530
+
+67
+
+1
+
+745
+
+758
+
+760
+
+reaction as described in Fig. 2 The results obtained with cases d1 , d2 and d3
+are shown by solid, dashed and dotted lines respectively. We note that energy
+distributions calculated with these choices differ from each other only in the
+peak region; the variation between them is of the order of only 5%. The results
+for the neutron angular distribution (for the reaction reported in Fig. 8) is of
+the similar nature.
+In part B of Fig. A.2, we show the relative energy spectrum for the same
+reaction as shown in Fig. (13), for the choices (d1 ), (d2 ) and (d3 ). In this case
+we observe almost no variation in the calculated cross sections. Similarly, We
+have noted no dependence of the calculated widths of the parallel momentum
+distributions of heavy fragments on the direction of K, in all the reactions
+investigated in this paper. Therefore, the dependence of various cross sections
+for the reaction studied in this paper, on the direction of the local momentum
+is either very minor or almost negligible. The measurements done so far are
+not able to distinguish the small differences that we see here in some cases.
+Therefore, we have performed all our calculations in this paper by using K̂ =
+k̂b .
+
+References
+[1]
+
+I. Tanihata et al., Phys. Rev. Lett. 55 (1985) 2676; Phys. Lett. B 160 (1985)
+380; Phys. Lett. B 206 (1988) 592.
+
+[2]
+
+P. G. Hansen and B. Jonson, Europhys. Lett. 4 (1987) 409.
+
+[3]
+
+A. C. Mueller and B. M. Sherrill, Annu. Rev. Nucl. Part. Sci. 43 (1993) 591.
+
+[4]
+
+K. Riisager, Rev. Mod. Phys. 66 (1994) 1105.
+
+[5]
+
+P. G. Hansen, A. S. Jensen and B. Jonson, Annu. Rev. Nucl. Part. Sci. 45
+(1995) 2.
+
+30
+
+[6]
+
+I. Tanihata, J. Phys. G: Nucl. Part. Phys. 22 (1996) 157.
+
+[7]
+
+I. Tanihata et al., Phys. Lett. B 206 (1988) 592; B. Blank et al., Z. Phys. A
+340 (1991) 41, M. Fukuda et al., Phys. Lett. B 268 (1991) 339.
+
+[8]
+
+D. Sackett et al., Phys. Rev. C 48 (1993) 118.
+
+[9]
+
+T. Nakamura et al., Phys. Lett. B 331 (1994) 296.
+
+[10] T. Nakamura et al., Phys. Rev. Lett. 83 (1999) 1112.
+[11] R. Anne et al., Phys. Lett. B 250 (1990) 19; 304 (1990) 55.
+[12] F. M. Marqués et al., Phys. Lett. B 381 (1996) 407.
+[13] N. A. Orr et al., Phys. Rev. C 51 (1995) 3116.
+[14] J. H. Kelley et al., Phys. Rev. Lett. 74 (1995) 30.
+[15] D. Bazin et al., Phys. Rev. Lett. 74 (1995) 3569; Phys. Rev. C57 (1998) 2156.
+[16] C.A. Bertulani and K.W. McVoy, Phys. Rev. C 46 (1992) 2638.
+[17] P. Banerjee and R. Shyam, Phys. Lett. B 349 (1995) 421.
+[18] T. Baumann et al., Phys. Lett. B 439 (1998) 256.
+[19] C. A. Bertulani and G. Baur, Nucl. Phys. A 480 (1988) 615; M. S. Hussein,
+M. P. Pato and C. A. Bertulani, Phys. Rev. C 44 (1991) 2219.
+[20] G. F. Bertsch and H. Esbensen, Ann. Phys. (N.Y.) 209 (1991) 327; H.
+Esbensen and G. F. Bertsch, Nucl. Phys. A 542 (1992) 310.
+[21] R. Serber, Phys. Rev. 72 (1947) 1016.
+[22] F. Negoita et al., Phys. Rev. C 54 (1996) 1787.
+[23] P. G. Hansen et al., Phys. Rev. Lett. 77 (1996) 1016.
+[24] G. Baur and H. Rebel, J. Phys. G: Nucl. Part. Phys. 20 (1994) 1; Annu. Rev.
+Nucl. Part. Sci. 46 (1997) 321.
+[25] L. F. Canto, R. Donangelo, A. Romanelli and H. Schulz, Phys. Lett. B 318
+(1993) 415; C. A. Bertulani, L. F. Canto and M. S. Hussein, Phys. Lett. B 353
+(1995) 413.
+[26] T. Kido, K. Yabana and Y. Suzuki, Phys. Rev. C 50 (1994) R1276.; 53 (1996)
+2296.
+[27] G. F. Bertsch and C. A. Bertulani, Nucl. Phys. A 556 (1993) 136; C. A.
+Bertulani and G. F. Bertsch, Phys. Rev. C 49 (1994) 2839; H. Esbensen, G.
+F. Bertsch and C. A. Bertulani, Nucl. Phys. A 581 (1995) 107.
+[28] R. Anne et al., Nucl. Phys. A 575 (1994) 125.
+[29] C. A. Bertulani, G. Baur and M.S. Hussein, Nucl. Phys. A 526 (1991) 751.
+
+31
+
+[30] G. Baur, F. Rösel, D. Trautmann and R. Shyam, Phys. Rep. 111 (1984) 333.
+[31] R. Shyam, P. Banerjee and G. Baur, Nucl. Phys. A 540 (1992) 341.
+[32] R. Shyam and M. A. Nagrajan, Ann. Phys. (N.Y.) 163 (1985) 285.
+[33] J. A. Tostevin, S. Rugmai and R. C. Johnson, Phys. Rev. C 57 (1998) 3225;
+J. A. Tostevin et al., Phys. Lett. B 424 (1998) 219
+[34] P. Braun-Munzinger and H. L. Harney, Nucl. Phys. A 233 (1974) 381.
+[35] P. Braun-Munzinger, H.L. Harney and S. Wenneis, Nucl. Phys. A 236 (1974)
+190.
+[36] G. R. Satchler, Direct Nuclear Reactions, Oxford University Press, New York,
+1991.
+[37] G. Baur and D. Trautmann, Nucl. Phys. A 191 (1972) 321.
+[38] P. Banerjee, I. J. Thompson and J. A. Tostevin, Phys. Rev. C 58 (1998) 1042.
+[39] R. C. Johnson, J. S. Al-Khalili and J. A. Tostevin, Phys. Rev. Lett. 79 (1997)
+2771.
+[40] J. A. Christley, J. S. Al-Khalili, J. A. Tostevin and R. C. Johnson, Nucl. Phys.
+A 624 (1997) 275.
+[41] R. C. Johnson, J. Phys. G: Nucl. & Part. Phys. 24 (1998) 1583.
+[42] H. Fuchs, Nucl. Instrum. Methods 200 (1982) 361; G. G. Ohlsen, Nucl.
+Instrum. Methods 37 (1965) 240.
+[43] A. Nordsieck, Phys. Rev. 93 (1954) 785.
+[44] F. M. Nunes, I. J. Thompson and R. C. Johnson, Nucl. Phys. A 596 (1996)
+171.
+[45] D. L. Auton, Nucl. Phys. A 157 (1970) 305.
+[46] B. Zwieglinski, W. Benenson, and R. G. H. Robertson, Nucl. Phys. A 315
+(1979) 124.
+[47] T. Aumann et al., Phys. Rev. Lett. 84 (2000) 35.
+[48] J. S. Al-Khalili and J. A. Tostevin, Phys. Rev. Lett. 76 (1996) 3903.
+[49] H. Lenske, J. Phys. G: Nucl. & Part. Phys. 24 (1998) 1429, and private
+communication.
+[50] P. Banerjee, Phys. Rev. C 59 (1999) 2305.
+[51] A. Ingemarsson and R. Shyam, Phys. Rev. C 60 (1999) 054615.
+[52] H. Esbensen, G. F. Bertsch and C. A. Bertulani, Nucl. Phys. A 581 (1995)
+107.
+
+32
+
+[53] G. Baur, C. A. Bertulani and D. M. Kalassa, Nucl. Phys. A 550 (1992) 527.
+[54] J. E. Bush et al., Phys. Rev. Lett. 81 (1998) 61.
+[55] P. Banerjee and R. Shyam, Phys. Lett. B 318 (1993) 268.
+[56] C. H. Dasso, S. M. Lenzi and A. Vitturi, Nucl. Phys. A 539 (1999) 59.
+[57] V. S. Melezhik and D. Baye, Phys. Rev. C 59 (1999) 3232.
+[58] G. Audi et al., Nucl. Phys. A 624 (1997) 1.
+[59] P. Banerjee and R. Shyam, Phys. Rev. C 61 (2000) 047301.
+[60] D. Ridikas, M. H. Smedberg, J. S. Vaagen, and M. V. Zhukov, Europhys. Lett.
+37, 385 (1997); Nucl. Phys. A 628, 363 (1998).
+[61] Z. Ren, Z. Y. Zhu, Y. H. Cai and G. Xu, Nucl. Phys. A 605 (1996) 75.
+[62] E. K. Warburton and B. A. Brown, Phys. Rev. C 46 (1992) 923.
+[63] P. Banerjee and R. Shyam, J. Phys. G: Nucl. & Part. Phys. 22 (1996) L79.
+[64] Angela Bonaccorso, Phys. Rev. C 60 (1999) 054604.
+
+33
+
+
